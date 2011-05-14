@@ -23,8 +23,6 @@ void Container::compute()
 	}
 }
 
-// Find the node with the smallest distance,
-// remove it, and return it.
 Node* Container::ExtractSmallest(vector<Node*>& nodes)
 {
 	int size = nodes.size();
@@ -45,8 +43,6 @@ Node* Container::ExtractSmallest(vector<Node*>& nodes)
 	return smallest;
 }
 
-// Return all nodes adjacent to 'node' which are still
-// in the 'nodes' collection.
 vector<Node*>* Container::AdjacentRemainingNodes(Node* node)
 {
 	vector<Node*>* adjacentNodes = new vector<Node*>();
@@ -65,7 +61,6 @@ vector<Node*>* Container::AdjacentRemainingNodes(Node* node)
 	return adjacentNodes;
 }
 
-// Return distance between two connected nodes
 int Container::Distance(Node* node1, Node* node2)
 {
 	const int size = edges.size();
@@ -80,7 +75,6 @@ int Container::Distance(Node* node1, Node* node2)
 	return -1; // should never happen
 }
 
-// Does the 'nodes' vector contain 'node'
 bool Container::Contains(vector<Node*>& nodes, Node* node)
 {
 	const int size = nodes.size();
@@ -94,15 +88,12 @@ bool Container::Contains(vector<Node*>& nodes, Node* node)
 	return false;
 }
 
-///////////////////
-
 vector<int> Container::findRoute(Node* start, Node* destination)
 {
 	start->distanceFromStart = 0;
 	this->compute();
 	vector<int> nodes;
 	Node* previous = destination;
-	//cout << "Distance from start: " << destination->distanceFromStart << endl;
 	while (previous)
 	{
 		nodes.push_back(previous->id);

@@ -126,7 +126,7 @@ void DrawMap(const char* file, HDC hdc)
 			current = getNodeLocation(id, a);
 			if (last.lat != -1) {
 				graphics.DrawLine(&penBlack, last.lon, last.lat, current.lon, current.lat);
-				map.newEdge(id, last_id, getDistance(last, current)); // TODO: compute distance
+				map.newEdge(id, last_id, getDistance(last, current));
 			}
 			last = current;
 			last_id = id;
@@ -134,15 +134,6 @@ void DrawMap(const char* file, HDC hdc)
 	}
 
 	vector<int> moves = map.findRoute(nStart, nFinish);
-
-	// draw start and finish nodes
-	{
-		Location lStart = getNodeLocation(start, a);
-		Location lFinish = getNodeLocation(finish, a);
-		int radius = 8;
-		graphics.DrawEllipse(&penRed, (int) lStart.lon - radius / 2, (int) lStart.lat - radius / 2, radius, radius);
-		graphics.DrawEllipse(&penRed, (int) lFinish.lon - radius / 2, (int) lFinish.lat - radius / 2, radius, radius);
-	}
 
 	// draw path
 	Location last, current;
@@ -153,5 +144,15 @@ void DrawMap(const char* file, HDC hdc)
 			graphics.DrawLine(&penRed, last.lon, last.lat, current.lon, current.lat);
 		}
 		last = current;
+	}
+
+	// draw start and finish nodes
+	{
+		Location lStart = getNodeLocation(start, a);
+		Location lFinish = getNodeLocation(finish, a);
+		
+		int radius = 8;
+		graphics.DrawEllipse(&penRed, (int) lStart.lon - radius / 2, (int) lStart.lat - radius / 2, radius, radius);
+		graphics.DrawEllipse(&penRed, (int) lFinish.lon - radius / 2, (int) lFinish.lat - radius / 2, radius, radius);
 	}
 };

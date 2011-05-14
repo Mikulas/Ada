@@ -53,7 +53,7 @@ public:
 class Container
 {
 protected:
-		Node* ExtractSmallest(vector<Node*>& nodes);
+	Node* ExtractSmallest(vector<Node*>& nodes);
 	vector<Node*>* AdjacentRemainingNodes(Node* node);
 	int Distance(Node* node1, Node* node2);
 	bool Contains(vector<Node*>& nodes, Node* node);
