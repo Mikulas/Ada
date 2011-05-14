@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.0.2">
+ <bounds minlat="50.0757250" minlon="14.4191940" maxlat="50.0777050" maxlon="14.4212220"/>
+ <node id="1165960311" lat="50.0776601" lon="14.4205970" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:23Z"/>
+ <node id="282762575" lat="50.0756176" lon="14.4236141" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053630" timestamp="2011-05-04T23:43:51Z">
+  <tag k="name" v="Štěpánská"/>
+  <tag k="railway" v="tram_stop"/>
+ </node>
+ <node id="25656675" lat="50.0775899" lon="14.4182673" user="Stanislav Brabec" uid="11629" visible="true" version="5" changeset="265928" timestamp="2008-08-15T15:39:53Z"/>
+ <node id="340032672" lat="50.0778152" lon="14.4188009" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:12Z"/>
+ <node id="523637141" lat="50.0774493" lon="14.4210493" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:36Z"/>
+ <node id="523637131" lat="50.0771082" lon="14.4200063" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="1165960255" lat="50.0776770" lon="14.4204342" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:22Z"/>
+ <node id="177728744" lat="50.0755201" lon="14.4281453" user="fatbozz" uid="5748" visible="true" version="4" changeset="3148126" timestamp="2009-11-18T08:13:02Z"/>
+ <node id="523637103" lat="50.0767312" lon="14.4197668" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:25Z"/>
+ <node id="25935991" lat="50.0755482" lon="14.4274364" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053630" timestamp="2011-05-04T23:43:51Z"/>
+ <node id="703733472" lat="50.0764111" lon="14.4193851" user="Petr Dlouhý" uid="17615" visible="true" version="2" changeset="6504034" timestamp="2010-12-01T14:01:46Z"/>
+ <node id="418950980" lat="50.0768427" lon="14.4214430" user="BiIbo" uid="3516" visible="true" version="1" changeset="1491854" timestamp="2009-06-11T22:04:08Z"/>
+ <node id="418956015" lat="50.0764981" lon="14.4213807" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492026" timestamp="2009-06-11T22:28:30Z"/>
+ <node id="177185403" lat="50.0780262" lon="14.4211773" user="BiIbo" uid="3516" visible="true" version="4" changeset="7357800" timestamp="2011-02-21T23:22:33Z"/>
+ <node id="703733509" lat="50.0774079" lon="14.4195927" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="418958704" lat="50.0759722" lon="14.4211792" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:48Z"/>
+ <node id="703733476" lat="50.0764409" lon="14.4190798" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053573" timestamp="2011-05-04T23:26:40Z"/>
+ <node id="296616809" lat="50.0761383" lon="14.4210487" user="Radomír Černoch" uid="51295" visible="true" version="3" changeset="1984279" timestamp="2009-07-30T13:11:50Z">
+  <tag k="addr:conscriptionnumber" v="554"/>
+  <tag k="addr:housenumber" v="554/33"/>
+  <tag k="addr:postcode" v="12000"/>
+  <tag k="addr:street" v="Karlovo náměstí"/>
+  <tag k="addr:streetnumber" v="33"/>
+  <tag k="source:addr" v="uir_adr"/>
+  <tag k="uir_adr:ADRESA_KOD" v="21731268"/>
+ </node>
+ <node id="25935967" lat="50.0755940" lon="14.4254994" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053630" timestamp="2011-05-04T23:43:49Z"/>
+ <node id="1165960304" lat="50.0780256" lon="14.4210534" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:23Z"/>
+ <node id="418956051" lat="50.0760461" lon="14.4212221" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492026" timestamp="2009-06-11T22:28:32Z"/>
+ <node id="1272589343" lat="50.0765941" lon="14.4192523" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="1272593683" lat="50.0757038" lon="14.4203786" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053630" timestamp="2011-05-04T23:43:44Z"/>
+ <node id="523637139" lat="50.0774714" lon="14.4209072" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="703733518" lat="50.0775310" lon="14.4201664" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="703733477" lat="50.0758667" lon="14.4206091" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="1165960342" lat="50.0762485" lon="14.4205805" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:24Z"/>
+ <node id="418956018" lat="50.0766241" lon="14.4214192" user="BiIbo" uid="3516" visible="true" version="3" changeset="7357800" timestamp="2011-02-21T23:40:17Z"/>
+ <node id="305807707" lat="50.0755218" lon="14.4289317" user="Jandrs" uid="248441" visible="true" version="3" changeset="8053630" timestamp="2011-05-04T23:43:50Z">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="1272589339" lat="50.0760428" lon="14.4191339" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="1165960259" lat="50.0776930" lon="14.4202771" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:22Z"/>
+ <node id="418950981" lat="50.0768417" lon="14.4214537" user="BiIbo" uid="3516" visible="true" version="1" changeset="1491854" timestamp="2009-06-11T22:04:08Z"/>
+ <node id="418956050" lat="50.0760590" lon="14.4210052" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492026" timestamp="2009-06-11T22:28:32Z"/>
+ <node id="1165960222" lat="50.0776908" lon="14.4203728" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:21Z"/>
+ <node id="83833125" lat="50.0776539" lon="14.4198489" user="Jandrs" uid="248441" visible="true" version="7" changeset="8053573" timestamp="2011-05-04T23:26:35Z"/>
+ <node id="523637108" lat="50.0768384" lon="14.4202127" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:25Z"/>
+ <node id="282634162" lat="50.0766565" lon="14.4209906" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="305304518" lat="50.0758217" lon="14.4210258" user="Stanislav Brabec" uid="11629" visible="true" version="3" changeset="1772293" timestamp="2009-07-08T13:47:34Z">
+  <tag k="amenity" v="pharmacy"/>
+  <tag k="dispensing" v="yes"/>
+  <tag k="name" v="U sv. Ignáce"/>
+ </node>
+ <node id="418956024" lat="50.0765000" lon="14.4213533" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492026" timestamp="2009-06-11T22:28:31Z"/>
+ <node id="583315171" lat="50.0777421" lon="14.4206327" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:37Z"/>
+ <node id="305281133" lat="50.0773162" lon="14.4192367" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:38Z"/>
+ <node id="418956013" lat="50.0766365" lon="14.4211702" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="703733507" lat="50.0767337" lon="14.4203533" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="1165960361" lat="50.0776770" lon="14.4205025" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:24Z"/>
+ <node id="523637099" lat="50.0765981" lon="14.4201511" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:25Z"/>
+ <node id="523637089" lat="50.0769463" lon="14.4194250" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053573" timestamp="2011-05-04T23:26:27Z"/>
+ <node id="305317987" lat="50.0774900" lon="14.4198639" user="BiIbo" uid="3516" visible="true" version="1" changeset="413050" timestamp="2008-10-18T03:26:16Z">
+  <tag k="amenity" v="bar"/>
+  <tag k="name" v="Cafe bar"/>
+ </node>
+ <node id="418950967" lat="50.0769491" lon="14.4212521" user="BiIbo" uid="3516" visible="true" version="1" changeset="1491854" timestamp="2009-06-11T22:04:07Z"/>
+ <node id="679235584" lat="50.0763204" lon="14.4205724" user="BiIbo" uid="3516" visible="true" version="3" changeset="7357800" timestamp="2011-02-21T23:22:36Z"/>
+ <node id="703733494" lat="50.0766830" lon="14.4205851" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="1272589330" lat="50.0767234" lon="14.4192631" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="1165960203" lat="50.0779239" lon="14.4204648" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:19Z"/>
+ <node id="1272593686" lat="50.0757555" lon="14.4197816" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053630" timestamp="2011-05-04T23:43:45Z"/>
+ <node id="282630713" lat="50.0758968" lon="14.4206342" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="340032738" lat="50.0779268" lon="14.4191130" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:18Z"/>
+ <node id="523637088" lat="50.0762532" lon="14.4195499" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:33Z"/>
+ <node id="305317981" lat="50.0774899" lon="14.4198190" user="BiIbo" uid="3516" visible="true" version="1" changeset="413050" timestamp="2008-10-18T03:25:51Z"/>
+ <node id="418958719" lat="50.0759593" lon="14.4211750" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="340032724" lat="50.0776755" lon="14.4193133" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:17Z"/>
+ <node id="1272589331" lat="50.0761733" lon="14.4191628" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="1014525811" lat="50.0777540" lon="14.4195788" user="Jandrs" uid="248441" visible="true" version="3" changeset="8053573" timestamp="2011-05-04T23:26:27Z">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="source" v="bing:ortofoto"/>
+ </node>
+ <node id="583315133" lat="50.0777177" lon="14.4203260" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:33Z"/>
+ <node id="331960354" lat="50.0760877" lon="14.4196695" user="Stanislav Brabec" uid="11629" visible="true" version="3" changeset="8104514" timestamp="2011-05-10T17:38:32Z">
+  <tag k="artwork_type" v="sculpture"/>
+  <tag k="name" v="Eliška Krásnohorská"/>
+  <tag k="tourism" v="artwork"/>
+ </node>
+ <node id="418958746" lat="50.0759127" lon="14.4212049" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="523637120" lat="50.0770440" lon="14.4206378" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="523637102" lat="50.0764741" lon="14.4198480" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="305317983" lat="50.0774854" lon="14.4199203" user="BiIbo" uid="3516" visible="true" version="1" changeset="413050" timestamp="2008-10-18T03:25:51Z"/>
+ <node id="21456613" lat="50.0776475" lon="14.4195731" user="Jandrs" uid="248441" visible="true" version="7" changeset="8053573" timestamp="2011-05-04T23:26:27Z">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="523637130" lat="50.0770815" lon="14.4198803" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="305317984" lat="50.0775142" lon="14.4198950" user="BiIbo" uid="3516" visible="true" version="1" changeset="413050" timestamp="2008-10-18T03:25:52Z"/>
+ <node id="703733522" lat="50.0774111" lon="14.4210172" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:12Z"/>
+ <node id="282630712" lat="50.0771705" lon="14.4209966" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:36Z"/>
+ <node id="523637112" lat="50.0769328" lon="14.4201216" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:26Z"/>
+ <node id="305281130" lat="50.0775635" lon="14.4192305" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:37Z"/>
+ <node id="418958743" lat="50.0759174" lon="14.4212060" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="1165960397" lat="50.0776921" lon="14.4204349" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:25Z"/>
+ <node id="703733523" lat="50.0774443" lon="14.4209903" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:12Z"/>
+ <node id="305281131" lat="50.0775575" lon="14.4192676" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:37Z"/>
+ <node id="703733489" lat="50.0764821" lon="14.4207511" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="523637091" lat="50.0760440" lon="14.4195815" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:25Z"/>
+ <node id="355008203" lat="50.0772105" lon="14.4192530" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="725195" timestamp="2009-03-02T22:47:49Z">
+  <tag k="amenity" v="post_box"/>
+ </node>
+ <node id="290036009" lat="50.0758347" lon="14.4197790" user="Jandrs" uid="248441" visible="true" version="7" changeset="8053630" timestamp="2011-05-04T23:43:51Z">
+  <tag k="name" v="Karlovo náměstí"/>
+  <tag k="railway" v="tram_stop"/>
+ </node>
+ <node id="703733502" lat="50.0770537" lon="14.4205110" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="523637100" lat="50.0766071" lon="14.4200448" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:31Z"/>
+ <node id="340032687" lat="50.0778840" lon="14.4190465" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:14Z"/>
+ <node id="523637134" lat="50.0770879" lon="14.4203608" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:27Z"/>
+ <node id="523637107" lat="50.0768012" lon="14.4201275" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:25Z"/>
+ <node id="296597842" lat="50.0765766" lon="14.4211807" user="Radomír Černoch" uid="51295" visible="true" version="3" changeset="1984279" timestamp="2009-07-30T13:06:36Z">
+  <tag k="addr:conscriptionnumber" v="555"/>
+  <tag k="addr:housenumber" v="555/31"/>
+  <tag k="addr:postcode" v="12000"/>
+  <tag k="addr:street" v="Karlovo náměstí"/>
+  <tag k="addr:streetnumber" v="31"/>
+  <tag k="source:addr" v="uir_adr"/>
+  <tag k="uir_adr:ADRESA_KOD" v="21731284"/>
+ </node>
+ <node id="305281138" lat="50.0769112" lon="14.4189161" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:38Z"/>
+ <node id="703733517" lat="50.0774772" lon="14.4200772" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="305281143" lat="50.0772353" lon="14.4189075" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:39Z"/>
+ <node id="523637093" lat="50.0759139" lon="14.4203828" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="418950977" lat="50.0766608" lon="14.4211805" user="BiIbo" uid="3516" visible="true" version="1" changeset="1491854" timestamp="2009-06-11T22:04:08Z"/>
+ <node id="418958701" lat="50.0759706" lon="14.4209806" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:48Z"/>
+ <node id="1272589318" lat="50.0776365" lon="14.4194733" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:23Z"/>
+ <node id="177185385" lat="50.0759063" lon="14.4205862" user="jkjk" uid="23543" visible="true" version="3" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="177185419" lat="50.0779047" lon="14.4197015" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:37Z"/>
+ <node id="703733473" lat="50.0764136" lon="14.4193328" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053573" timestamp="2011-05-04T23:26:36Z">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="177185435" lat="50.0775575" lon="14.4196654" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053573" timestamp="2011-05-04T23:26:28Z"/>
+ <node id="703733511" lat="50.0774352" lon="14.4196231" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="418958707" lat="50.0759727" lon="14.4212261" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:48Z"/>
+ <node id="305281144" lat="50.0772590" lon="14.4189089" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:39Z"/>
+ <node id="25936010" lat="50.0755614" lon="14.4268070" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053630" timestamp="2011-05-04T23:43:47Z"/>
+ <node id="1272589320" lat="50.0759522" lon="14.4190876" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:23Z"/>
+ <node id="418956014" lat="50.0765149" lon="14.4211294" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492026" timestamp="2009-06-11T22:28:30Z"/>
+ <node id="340032689" lat="50.0779222" lon="14.4190459" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:14Z"/>
+ <node id="305281139" lat="50.0770485" lon="14.4191999" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:38Z"/>
+ <node id="679235583" lat="50.0760747" lon="14.4204977" user="BiIbo" uid="3516" visible="true" version="3" changeset="7357800" timestamp="2011-02-21T23:22:35Z"/>
+ <node id="583315110" lat="50.0773960" lon="14.4196133" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="703733495" lat="50.0767027" lon="14.4206887" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="418956017" lat="50.0765628" lon="14.4214069" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492026" timestamp="2009-06-11T22:28:30Z"/>
+ <node id="523637132" lat="50.0771083" lon="14.4201558" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:27Z"/>
+ <node id="1167635096" lat="50.0756159" lon="14.4239121" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053630" timestamp="2011-05-04T23:43:48Z">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="1031068844" lat="50.0757590" lon="14.4205483" user="Jandrs" uid="248441" visible="true" version="3" changeset="8053630" timestamp="2011-05-04T23:43:52Z">
+  <tag k="highway" v="crossing"/>
+  <tag k="source" v="bing:ortofoto"/>
+ </node>
+ <node id="703733512" lat="50.0775056" lon="14.4197763" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="305281136" lat="50.0773966" lon="14.4190340" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:38Z"/>
+ <node id="25656681" lat="50.0779465" lon="14.4195663" user="Jandrs" uid="248441" visible="true" version="5" changeset="8053573" timestamp="2011-05-04T23:26:28Z"/>
+ <node id="340032671" lat="50.0778060" lon="14.4188035" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:12Z"/>
+ <node id="21453765" lat="50.0775047" lon="14.4212661" user="BiIbo" uid="3516" visible="true" version="6" changeset="7357800" timestamp="2011-02-21T23:22:38Z">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="282630715" lat="50.0771620" lon="14.4210819" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:36Z"/>
+ <node id="1251239861" lat="50.0756740" lon="14.4191518" user="Jandrs" uid="248441" visible="true" version="3" changeset="8053573" timestamp="2011-05-04T23:26:36Z"/>
+ <node id="703733481" lat="50.0767259" lon="14.4201529" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="418956016" lat="50.0765598" lon="14.4213908" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:40:16Z"/>
+ <node id="523637114" lat="50.0767024" lon="14.4203637" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="1031068869" lat="50.0755885" lon="14.4206357" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="6607055" timestamp="2010-12-10T16:27:49Z">
+  <tag k="highway" v="crossing"/>
+  <tag k="source" v="bing:ortofoto"/>
+ </node>
+ <node id="523637117" lat="50.0765656" lon="14.4203805" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="418958725" lat="50.0757749" lon="14.4209463" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="305317979" lat="50.0775124" lon="14.4198261" user="BiIbo" uid="3516" visible="true" version="1" changeset="413050" timestamp="2008-10-18T03:25:51Z"/>
+ <node id="305806058" lat="50.0773991" lon="14.4192729" user="BiIbo" uid="3516" visible="true" version="1" changeset="458571" timestamp="2008-10-19T23:00:01Z">
+  <tag k="amenity" v="telephone"/>
+ </node>
+ <node id="523637086" lat="50.0762053" lon="14.4192943" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053573" timestamp="2011-05-04T23:26:27Z"/>
+ <node id="418956019" lat="50.0766481" lon="14.4214246" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:40:16Z"/>
+ <node id="583315137" lat="50.0776982" lon="14.4205607" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:39Z"/>
+ <node id="305317985" lat="50.0775106" lon="14.4198711" user="BiIbo" uid="3516" visible="true" version="1" changeset="413050" timestamp="2008-10-18T03:25:52Z"/>
+ <node id="1165956849" lat="50.0735799" lon="14.4199791" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:17:45Z">
+  <tag k="highway" v="crossing"/>
+  <tag k="source" v="bing:ortofoto"/>
+ </node>
+ <node id="1031068861" lat="50.0760080" lon="14.4200284" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="6607055" timestamp="2010-12-10T16:27:48Z"/>
+ <node id="703733493" lat="50.0766821" lon="14.4208337" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="282751621" lat="50.0777486" lon="14.4197825" user="BiIbo" uid="3516" visible="true" version="1" changeset="23164" timestamp="2008-08-01T21:21:07Z"/>
+ <node id="583315170" lat="50.0778518" lon="14.4206396" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:34Z"/>
+ <node id="523637113" lat="50.0769226" lon="14.4202089" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:26Z"/>
+ <node id="1165960229" lat="50.0761561" lon="14.4205663" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:21Z"/>
+ <node id="282751617" lat="50.0758563" lon="14.4203275" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="523637115" lat="50.0766588" lon="14.4202993" user="BiIbo" uid="3516" visible="true" version="3" changeset="7357800" timestamp="2011-02-21T23:22:36Z"/>
+ <node id="282630714" lat="50.0758744" lon="14.4207317" user="marcschneider" uid="55777" visible="true" version="1" changeset="17085" timestamp="2008-08-01T09:08:04Z"/>
+ <node id="25656674" lat="50.0778891" lon="14.4179561" user="BiIbo" uid="3516" visible="true" version="2" changeset="61612" timestamp="2009-02-02T16:03:54Z"/>
+ <node id="583315166" lat="50.0777638" lon="14.4202911" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:39Z"/>
+ <node id="703733521" lat="50.0775717" lon="14.4199524" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="290036010" lat="50.0763337" lon="14.4193195" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053573" timestamp="2011-05-04T23:26:37Z">
+  <tag k="name" v="Karlovo náměstí"/>
+  <tag k="railway" v="tram_stop"/>
+ </node>
+ <node id="418958728" lat="50.0757620" lon="14.4212671" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="523637128" lat="50.0769054" lon="14.4203578" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:26Z"/>
+ <node id="583315167" lat="50.0778222" lon="14.4202962" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:33Z"/>
+ <node id="523637095" lat="50.0760304" lon="14.4196804" user="Petr Dlouhý" uid="17615" visible="true" version="2" changeset="6607055" timestamp="2010-12-10T16:27:53Z"/>
+ <node id="703733451" lat="50.0748986" lon="14.4204594" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:10Z"/>
+ <node id="21672816" lat="50.0757420" lon="14.4207103" user="Jandrs" uid="248441" visible="true" version="8" changeset="8053630" timestamp="2011-05-04T23:43:48Z">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="1272589338" lat="50.0760011" lon="14.4192471" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053630" timestamp="2011-05-04T23:43:52Z"/>
+ <node id="282751619" lat="50.0776250" lon="14.4211014" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:33Z"/>
+ <node id="296611885" lat="50.0757873" lon="14.4210815" user="Radomír Černoch" uid="51295" visible="true" version="2" changeset="1984279" timestamp="2009-07-30T13:10:29Z">
+  <tag k="addr:conscriptionnumber" v="550"/>
+  <tag k="addr:housenumber" v="550/1"/>
+  <tag k="addr:postcode" v="12000"/>
+  <tag k="addr:street" v="Ječná"/>
+  <tag k="addr:streetnumber" v="1"/>
+  <tag k="source:addr" v="uir_adr"/>
+  <tag k="uir_adr:ADRESA_KOD" v="21731225"/>
+ </node>
+ <node id="355008201" lat="50.0775348" lon="14.4192170" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="725195" timestamp="2009-03-02T22:47:48Z">
+  <tag k="name" v="TV products"/>
+  <tag k="shop" v="electronics"/>
+ </node>
+ <node id="523637094" lat="50.0758098" lon="14.4207599" user="Petr Dlouhý" uid="17615" visible="true" version="3" changeset="6607055" timestamp="2010-12-10T16:27:52Z">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="1165960287" lat="50.0778089" lon="14.4206596" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:23Z"/>
+ <node id="1272593674" lat="50.0756767" lon="14.4206786" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053630" timestamp="2011-05-04T23:43:44Z"/>
+ <node id="523637140" lat="50.0774852" lon="14.4207589" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="418958734" lat="50.0759157" lon="14.4212931" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="1272589336" lat="50.0775653" lon="14.4196319" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="1165960386" lat="50.0774143" lon="14.4212368" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:25Z">
+  <tag k="highway" v="crossing"/>
+  <tag k="source" v="bing:ortofoto"/>
+ </node>
+ <node id="523637110" lat="50.0767363" lon="14.4201083" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:25Z"/>
+ <node id="703733500" lat="50.0763993" lon="14.4203414" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:32Z"/>
+ <node id="282751615" lat="50.0759253" lon="14.4195747" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:33Z"/>
+ <node id="523637111" lat="50.0769662" lon="14.4198329" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:25Z"/>
+ <node id="1165960444" lat="50.0777911" lon="14.4197238" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:27Z"/>
+ <node id="1165960200" lat="50.0779339" lon="14.4212000" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:19Z"/>
+ <node id="679235585" lat="50.0764893" lon="14.4207763" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="1272589337" lat="50.0779397" lon="14.4194605" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="523637087" lat="50.0761035" lon="14.4193908" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:24Z"/>
+ <node id="1167635072" lat="50.0756119" lon="14.4243069" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053630" timestamp="2011-05-04T23:43:52Z">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="703733516" lat="50.0776525" lon="14.4196828" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053573" timestamp="2011-05-04T23:26:38Z">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="sound" v="yes"/>
+ </node>
+ <node id="1165960394" lat="50.0779955" lon="14.4212198" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:25Z"/>
+ <node id="1165960365" lat="50.0777437" lon="14.4203063" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:25Z"/>
+ <node id="523637125" lat="50.0768261" lon="14.4203139" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:26Z"/>
+ <node id="703733513" lat="50.0775741" lon="14.4197156" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053573" timestamp="2011-05-04T23:26:34Z"/>
+ <node id="523637138" lat="50.0775529" lon="14.4206651" user="Petr Dlouhý" uid="17615" visible="true" version="2" changeset="8006682" timestamp="2011-04-29T20:33:12Z"/>
+ <node id="703733484" lat="50.0768102" lon="14.4202015" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="1272589341" lat="50.0764264" lon="14.4192143" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="340032685" lat="50.0778808" lon="14.4189024" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:13Z"/>
+ <node id="703733498" lat="50.0766779" lon="14.4202476" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="523637105" lat="50.0768047" lon="14.4197900" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="340224216" lat="50.0758969" lon="14.4208191" user="BiIbo" uid="3516" visible="true" version="1" changeset="97072" timestamp="2009-02-03T14:47:26Z">
+  <tag k="amenity" v="telephone"/>
+  <tag k="note" v="dvě telefonní budky vedle sebe"/>
+ </node>
+ <node id="1272589324" lat="50.0758292" lon="14.4191149" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053630" timestamp="2011-05-04T23:43:49Z">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="1272589333" lat="50.0772429" lon="14.4193878" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="523637090" lat="50.0768505" lon="14.4194742" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:33Z"/>
+ <node id="1165960403" lat="50.0777141" lon="14.4205867" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:26Z"/>
+ <node id="523637137" lat="50.0773169" lon="14.4208512" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:27Z"/>
+ <node id="523637101" lat="50.0764402" lon="14.4199903" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:34Z"/>
+ <node id="248124362" lat="50.0759951" lon="14.4194700" user="BiIbo" uid="3516" visible="true" version="1" changeset="147092" timestamp="2008-02-18T02:50:59Z">
+  <tag k="created_by" v="JOSM"/>
+  <tag k="name" v="Karlovo náměstí, Metro B"/>
+  <tag k="railway" v="subway_entrance"/>
+ </node>
+ <node id="1165960253" lat="50.0779024" lon="14.4200196" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:22Z"/>
+ <node id="418950979" lat="50.0767667" lon="14.4214296" user="BiIbo" uid="3516" visible="true" version="1" changeset="1491854" timestamp="2009-06-11T22:04:08Z"/>
+ <node id="1272589342" lat="50.0770747" lon="14.4193272" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="305281142" lat="50.0772234" lon="14.4186094" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:39Z"/>
+ <node id="703733519" lat="50.0775456" lon="14.4201958" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="703733480" lat="50.0765249" lon="14.4197129" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="703733496" lat="50.0766928" lon="14.4203176" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="418958749" lat="50.0759134" lon="14.4211808" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="1272589322" lat="50.0763825" lon="14.4192044" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:23Z"/>
+ <node id="523637098" lat="50.0766494" lon="14.4197518" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="296550136" lat="50.0774311" lon="14.4192491" user="Radomír Černoch" uid="51295" visible="true" version="3" changeset="1984279" timestamp="2009-07-30T12:59:31Z">
+  <tag k="addr:conscriptionnumber" v="287"/>
+  <tag k="addr:housenumber" v="287/18"/>
+  <tag k="addr:postcode" v="12000"/>
+  <tag k="addr:street" v="Karlovo náměstí"/>
+  <tag k="addr:streetnumber" v="18"/>
+  <tag k="source:addr" v="uir_adr"/>
+  <tag k="uir_adr:ADRESA_KOD" v="21728127"/>
+ </node>
+ <node id="418956025" lat="50.0764502" lon="14.4213402" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492026" timestamp="2009-06-11T22:28:31Z"/>
+ <node id="523637096" lat="50.0758814" lon="14.4204525" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="703733488" lat="50.0767728" lon="14.4197799" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="523637116" lat="50.0766579" lon="14.4208272" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="418958731" lat="50.0758840" lon="14.4212822" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="523637136" lat="50.0772065" lon="14.4208466" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="1031068832" lat="50.0757202" lon="14.4209975" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053630" timestamp="2011-05-04T23:43:51Z">
+  <tag k="highway" v="crossing"/>
+  <tag k="source" v="bing:ortofoto"/>
+ </node>
+ <node id="340032628" lat="50.0776545" lon="14.4188715" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:08Z"/>
+ <node id="703733515" lat="50.0775855" lon="14.4197573" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053573" timestamp="2011-05-04T23:26:28Z"/>
+ <node id="418958716" lat="50.0760458" lon="14.4212336" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="1272589327" lat="50.0776698" lon="14.4194757" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="523637127" lat="50.0768929" lon="14.4204642" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="21672823" lat="50.0734949" lon="14.4199703" user="BiIbo" uid="3516" visible="true" version="4" changeset="7357800" timestamp="2011-02-21T23:17:49Z"/>
+ <node id="1165960267" lat="50.0775083" lon="14.4210883" user="Petr Dlouhý" uid="17615" visible="true" version="2" changeset="8006682" timestamp="2011-04-29T20:33:12Z">
+  <tag k="highway" v="crossing"/>
+  <tag k="source" v="bing:ortofoto"/>
+ </node>
+ <node id="305317986" lat="50.0775251" lon="14.4198654" user="BiIbo" uid="3516" visible="true" version="1" changeset="413050" timestamp="2008-10-18T03:25:52Z"/>
+ <node id="296486686" lat="50.0764356" lon="14.4211262" user="Radomír Černoch" uid="51295" visible="true" version="3" changeset="1984279" timestamp="2009-07-30T12:51:53Z">
+  <tag k="addr:conscriptionnumber" v="554"/>
+  <tag k="addr:housenumber" v="554/32"/>
+  <tag k="addr:postcode" v="12000"/>
+  <tag k="addr:street" v="Karlovo náměstí"/>
+  <tag k="addr:streetnumber" v="32"/>
+  <tag k="source:addr" v="uir_adr"/>
+  <tag k="uir_adr:ADRESA_KOD" v="21731250"/>
+ </node>
+ <node id="305281132" lat="50.0775407" lon="14.4192831" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:37Z"/>
+ <node id="583315169" lat="50.0779019" lon="14.4205702" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:31Z"/>
+ <node id="703733470" lat="50.0761596" lon="14.4193303" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:10Z"/>
+ <node id="418950978" lat="50.0766489" lon="14.4214017" user="BiIbo" uid="3516" visible="true" version="1" changeset="1491854" timestamp="2009-06-11T22:04:08Z"/>
+ <node id="340032630" lat="50.0777840" lon="14.4188226" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:09Z"/>
+ <node id="418963722" lat="50.0758522" lon="14.4205615" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492094" timestamp="2009-06-11T22:39:52Z">
+  <tag k="amenity" v="toilets"/>
+ </node>
+ <node id="305281137" lat="50.0770440" lon="14.4189189" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:38Z"/>
+ <node id="523637122" lat="50.0768737" lon="14.4208863" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="304756659" lat="50.0769042" lon="14.4191641" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="345927" timestamp="2008-10-15T12:02:21Z"/>
+ <node id="305281145" lat="50.0772581" lon="14.4189617" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:39Z"/>
+ <node id="703733487" lat="50.0768291" lon="14.4197965" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="177185447" lat="50.0761887" lon="14.4193548" user="jkjk" uid="23543" visible="true" version="3" changeset="4496180" timestamp="2010-04-22T15:53:33Z"/>
+ <node id="25935949" lat="50.0756600" lon="14.4223528" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053630" timestamp="2011-05-04T23:43:49Z"/>
+ <node id="703733508" lat="50.0773242" lon="14.4199587" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="703733503" lat="50.0767387" lon="14.4206114" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="703733492" lat="50.0767104" lon="14.4206348" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="305317980" lat="50.0774962" lon="14.4198415" user="BiIbo" uid="3516" visible="true" version="1" changeset="413050" timestamp="2008-10-18T03:25:51Z"/>
+ <node id="703733506" lat="50.0767791" lon="14.4203474" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="523637119" lat="50.0763954" lon="14.4204690" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="21456614" lat="50.0759095" lon="14.4192222" user="Jandrs" uid="248441" visible="true" version="13" changeset="8053630" timestamp="2011-05-04T23:43:49Z"/>
+ <node id="1272589321" lat="50.0769107" lon="14.4192974" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:23Z"/>
+ <node id="523637121" lat="50.0769532" lon="14.4207831" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:26Z"/>
+ <node id="305281129" lat="50.0773937" lon="14.4189473" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:37Z"/>
+ <node id="703733479" lat="50.0766993" lon="14.4201788" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="296530887" lat="50.0758678" lon="14.4209656" user="Radomír Černoch" uid="51295" visible="true" version="3" changeset="1984279" timestamp="2009-07-30T12:57:27Z">
+  <tag k="addr:conscriptionnumber" v="550"/>
+  <tag k="addr:housenumber" v="550/35"/>
+  <tag k="addr:postcode" v="12800"/>
+  <tag k="addr:street" v="Karlovo náměstí"/>
+  <tag k="addr:streetnumber" v="35"/>
+  <tag k="source:addr" v="uir_adr"/>
+  <tag k="uir_adr:ADRESA_KOD" v="21731233"/>
+ </node>
+ <node id="305281135" lat="50.0773063" lon="14.4190108" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:38Z"/>
+ <node id="523637097" lat="50.0766656" lon="14.4201716" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:31Z"/>
+ <node id="583315168" lat="50.0778973" lon="14.4203750" user="slimejs" uid="119317" visible="true" version="1" changeset="3326476" timestamp="2009-12-08T17:27:36Z"/>
+ <node id="1272589319" lat="50.0777509" lon="14.4194757" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:23Z">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="418950968" lat="50.0769344" lon="14.4214648" user="BiIbo" uid="3516" visible="true" version="1" changeset="1491854" timestamp="2009-06-11T22:04:07Z"/>
+ <node id="523637129" lat="50.0767376" lon="14.4208487" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="1014525824" lat="50.0776208" lon="14.4193287" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="6504034" timestamp="2010-12-01T13:59:06Z">
+  <tag k="highway" v="crossing"/>
+  <tag k="source" v="bing:ortofoto"/>
+ </node>
+ <node id="1272589334" lat="50.0778661" lon="14.4194611" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="703733483" lat="50.0767771" lon="14.4201509" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="1272589325" lat="50.0774916" lon="14.4194411" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:24Z"/>
+ <node id="703733514" lat="50.0775862" lon="14.4196859" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053573" timestamp="2011-05-04T23:26:27Z"/>
+ <node id="25656677" lat="50.0777276" lon="14.4181170" user="Stanislav Brabec" uid="11629" visible="true" version="3" changeset="265928" timestamp="2008-08-15T15:39:49Z"/>
+ <node id="355008202" lat="50.0772695" lon="14.4191998" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="725195" timestamp="2009-03-02T22:47:48Z">
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="chinese"/>
+  <tag k="name" v="Čínský bufet"/>
+ </node>
+ <node id="523637092" lat="50.0760250" lon="14.4198601" user="Petr Dlouhý" uid="17615" visible="true" version="2" changeset="6607055" timestamp="2010-12-10T16:27:50Z"/>
+ <node id="1272589317" lat="50.0775739" lon="14.4196781" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:23Z"/>
+ <node id="523637104" lat="50.0768264" lon="14.4195835" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z">
+  <tag k="highway" v="steps"/>
+ </node>
+ <node id="1272593690" lat="50.0758147" lon="14.4191939" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053630" timestamp="2011-05-04T23:43:45Z"/>
+ <node id="703733505" lat="50.0768160" lon="14.4202800" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="305317982" lat="50.0774610" lon="14.4198429" user="BiIbo" uid="3516" visible="true" version="1" changeset="413050" timestamp="2008-10-18T03:25:51Z"/>
+ <node id="21672832" lat="50.0756139" lon="14.4241110" user="Jandrs" uid="248441" visible="true" version="7" changeset="8053630" timestamp="2011-05-04T23:43:51Z"/>
+ <node id="523637126" lat="50.0767685" lon="14.4203829" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="418958752" lat="50.0759581" lon="14.4211862" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="1165960360" lat="50.0779171" lon="14.4198959" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:24Z"/>
+ <node id="296446746" lat="50.0760075" lon="14.4210062" user="Radomír Černoch" uid="51295" visible="true" version="3" changeset="1984279" timestamp="2009-07-30T12:47:54Z">
+  <tag k="addr:conscriptionnumber" v="551"/>
+  <tag k="addr:housenumber" v="551/34"/>
+  <tag k="addr:postcode" v="12000"/>
+  <tag k="addr:street" v="Karlovo náměstí"/>
+  <tag k="addr:streetnumber" v="34"/>
+  <tag k="source:addr" v="uir_adr"/>
+  <tag k="uir_adr:ADRESA_KOD" v="21731241"/>
+ </node>
+ <node id="1251239849" lat="50.0760461" lon="14.4192621" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053630" timestamp="2011-05-04T23:43:48Z"/>
+ <node id="679235582" lat="50.0759305" lon="14.4203606" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:34Z"/>
+ <node id="418958722" lat="50.0757872" lon="14.4209262" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492068" timestamp="2009-06-11T22:35:49Z"/>
+ <node id="523637118" lat="50.0765764" lon="14.4202898" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:35Z"/>
+ <node id="305281127" lat="50.0775486" lon="14.4189380" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:37Z"/>
+ <node id="418950982" lat="50.0767646" lon="14.4214381" user="BiIbo" uid="3516" visible="true" version="1" changeset="1491854" timestamp="2009-06-11T22:04:08Z"/>
+ <node id="305281140" lat="50.0772920" lon="14.4185980" user="BiIbo" uid="3516" visible="true" version="1" changeset="407298" timestamp="2008-10-17T22:51:39Z"/>
+ <node id="1165960335" lat="50.0778682" lon="14.4203226" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:24Z"/>
+ <node id="340032691" lat="50.0779389" lon="14.4193079" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:14Z"/>
+ <node id="523637135" lat="50.0770820" lon="14.4207439" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:35Z"/>
+ <node id="703733520" lat="50.0775584" lon="14.4199061" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:11Z"/>
+ <node id="1165960216" lat="50.0779882" lon="14.4209809" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:20Z"/>
+ <node id="340032682" lat="50.0778237" lon="14.4189012" user="BiIbo" uid="3516" visible="true" version="1" changeset="61612" timestamp="2009-02-02T16:06:12Z"/>
+ <way id="111771388" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053630" timestamp="2011-05-04T23:43:46Z">
+  <nd ref="1272589324"/>
+  <nd ref="1272593690"/>
+  <nd ref="1272593686"/>
+  <nd ref="1272593683"/>
+  <nd ref="1272593674"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="3"/>
+  <tag k="name" v="Karlovo náměstí"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="42121680" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:27Z">
+  <nd ref="523637095"/>
+  <nd ref="290036009"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="42121681" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:41Z">
+  <nd ref="523637091"/>
+  <nd ref="523637088"/>
+  <nd ref="703733480"/>
+  <nd ref="523637098"/>
+  <nd ref="523637103"/>
+  <nd ref="703733488"/>
+  <nd ref="523637105"/>
+  <nd ref="703733487"/>
+  <nd ref="523637111"/>
+  <nd ref="523637130"/>
+  <nd ref="523637131"/>
+  <nd ref="523637132"/>
+  <nd ref="523637134"/>
+  <nd ref="703733502"/>
+  <nd ref="523637120"/>
+  <nd ref="523637121"/>
+  <nd ref="523637122"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="35833667" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:36:36Z">
+  <nd ref="418958719"/>
+  <nd ref="418958701"/>
+  <nd ref="418958722"/>
+  <nd ref="418958725"/>
+  <nd ref="418958728"/>
+  <nd ref="418958731"/>
+  <nd ref="418958734"/>
+  <nd ref="418958743"/>
+  <nd ref="418958746"/>
+  <nd ref="418958749"/>
+  <nd ref="418958752"/>
+  <nd ref="418958719"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="5"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="30745998" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:43:50Z">
+  <nd ref="340032691"/>
+  <nd ref="340032738"/>
+  <nd ref="340032689"/>
+  <nd ref="340032687"/>
+  <nd ref="340032685"/>
+  <nd ref="340032682"/>
+  <nd ref="340032672"/>
+  <nd ref="340032671"/>
+  <nd ref="340032630"/>
+  <nd ref="340032628"/>
+  <nd ref="340032724"/>
+  <nd ref="340032691"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="7"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="100898172" user="BiIbo" uid="3516" visible="true" version="1" changeset="7357800" timestamp="2011-02-21T23:22:29Z">
+  <nd ref="523637112"/>
+  <nd ref="523637132"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="53806341" user="BiIbo" uid="3516" visible="true" version="3" changeset="7357800" timestamp="2011-02-21T23:22:31Z">
+  <nd ref="679235582"/>
+  <nd ref="679235583"/>
+  <nd ref="1165960229"/>
+  <nd ref="1165960342"/>
+  <nd ref="679235584"/>
+  <nd ref="523637119"/>
+  <nd ref="703733489"/>
+  <nd ref="679235585"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="42121683" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:27Z">
+  <nd ref="523637107"/>
+  <nd ref="523637108"/>
+  <nd ref="523637125"/>
+  <nd ref="523637126"/>
+  <nd ref="523637114"/>
+  <nd ref="523637115"/>
+  <nd ref="523637097"/>
+  <nd ref="523637110"/>
+  <nd ref="523637107"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="56067051" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:18Z">
+  <nd ref="523637126"/>
+  <nd ref="703733503"/>
+  <nd ref="703733492"/>
+  <nd ref="703733495"/>
+  <nd ref="703733493"/>
+  <nd ref="282634162"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="111770910" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:25Z">
+  <nd ref="1272589337"/>
+  <nd ref="1272589334"/>
+  <nd ref="1272589319"/>
+  <nd ref="1272589327"/>
+  <nd ref="1272589318"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Karlovo náměstí"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="9681031" user="Jandrs" uid="248441" visible="true" version="10" changeset="8053573" timestamp="2011-05-04T23:26:28Z">
+  <nd ref="21456613"/>
+  <nd ref="523637089"/>
+  <nd ref="703733473"/>
+  <nd ref="290036010"/>
+  <nd ref="523637086"/>
+  <nd ref="1251239849"/>
+  <nd ref="1272589338"/>
+  <nd ref="21456614"/>
+  <tag k="railway" v="tram"/>
+ </way>
+ <way id="56067058" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:33Z">
+  <nd ref="703733514"/>
+  <nd ref="703733516"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="9681032" user="Jandrs" uid="248441" visible="true" version="13" changeset="8053630" timestamp="2011-05-04T23:43:52Z">
+  <nd ref="21456614"/>
+  <nd ref="1272593690"/>
+  <nd ref="1251239861"/>
+  <tag k="railway" v="tram"/>
+ </way>
+ <way id="42121693" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:29Z">
+  <nd ref="523637097"/>
+  <nd ref="523637099"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="42121695" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:43Z">
+  <nd ref="703733480"/>
+  <nd ref="523637102"/>
+  <nd ref="523637101"/>
+  <nd ref="703733500"/>
+  <nd ref="523637119"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="25909120" user="Stanislav Brabec" uid="11629" visible="true" version="2" changeset="7907716" timestamp="2011-04-19T15:46:42Z">
+  <nd ref="282630712"/>
+  <nd ref="282630713"/>
+  <nd ref="282630714"/>
+  <nd ref="282630715"/>
+  <nd ref="282630712"/>
+  <tag k="amenity" v="parking"/>
+ </way>
+ <way id="4083702" user="FK270673" uid="42429" visible="true" version="12" changeset="7424353" timestamp="2011-02-28T20:48:58Z">
+  <nd ref="21453765"/>
+  <nd ref="1165960386"/>
+  <nd ref="282634162"/>
+  <nd ref="523637094"/>
+  <nd ref="21672816"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Karlovo náměstí"/>
+  <tag k="name:de" v="Karlsplatz"/>
+  <tag k="name:ru" v="Карлова площадь"/>
+ </way>
+ <way id="35833515" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492026" timestamp="2009-06-11T22:28:50Z">
+  <nd ref="418956013"/>
+  <nd ref="282634162"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="27804642" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:45:09Z">
+  <nd ref="305281140"/>
+  <nd ref="305281142"/>
+  <nd ref="305281143"/>
+  <nd ref="305281144"/>
+  <nd ref="305281145"/>
+  <nd ref="305281137"/>
+  <nd ref="305281139"/>
+  <nd ref="305281133"/>
+  <nd ref="305281135"/>
+  <nd ref="305281140"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="5"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="35833666" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:36:37Z">
+  <nd ref="418956050"/>
+  <nd ref="418958701"/>
+  <nd ref="418958719"/>
+  <nd ref="418958704"/>
+  <nd ref="418958707"/>
+  <nd ref="418958716"/>
+  <nd ref="418956051"/>
+  <nd ref="418956050"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="7"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="27807038" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-22T00:08:59Z">
+  <nd ref="305317979"/>
+  <nd ref="305317980"/>
+  <nd ref="305317981"/>
+  <nd ref="305317982"/>
+  <nd ref="305317983"/>
+  <nd ref="305317984"/>
+  <nd ref="305317985"/>
+  <nd ref="305317986"/>
+  <nd ref="305317979"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="1"/>
+  <tag k="layer" v="1"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="42121686" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:43Z">
+  <nd ref="523637120"/>
+  <nd ref="523637135"/>
+  <nd ref="523637136"/>
+  <nd ref="523637137"/>
+  <nd ref="523637140"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="56067047" user="Petr Dlouhý" uid="17615" visible="true" version="2" changeset="6607055" timestamp="2010-12-10T16:27:52Z">
+  <nd ref="703733470"/>
+  <nd ref="523637087"/>
+  <nd ref="523637091"/>
+  <nd ref="523637095"/>
+  <nd ref="523637092"/>
+  <nd ref="1031068861"/>
+  <nd ref="679235582"/>
+  <nd ref="523637093"/>
+  <nd ref="523637096"/>
+  <nd ref="703733477"/>
+  <nd ref="523637094"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="56067056" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:18Z">
+  <nd ref="523637130"/>
+  <nd ref="703733508"/>
+  <nd ref="703733517"/>
+  <nd ref="703733518"/>
+  <nd ref="703733519"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="111770907" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:25Z">
+  <nd ref="1272589318"/>
+  <nd ref="1014525824"/>
+  <nd ref="25656675"/>
+  <nd ref="25656677"/>
+  <nd ref="25656674"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Odborů"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="10157973" user="Jandrs" uid="248441" visible="true" version="9" changeset="8053573" timestamp="2011-05-04T23:26:38Z">
+  <nd ref="21453765"/>
+  <nd ref="1165960267"/>
+  <nd ref="523637138"/>
+  <nd ref="83833125"/>
+  <nd ref="703733516"/>
+  <nd ref="21456613"/>
+  <nd ref="1272589318"/>
+  <nd ref="1272589325"/>
+  <nd ref="1272589333"/>
+  <nd ref="1272589342"/>
+  <nd ref="1272589321"/>
+  <nd ref="1272589330"/>
+  <nd ref="1272589343"/>
+  <nd ref="1272589341"/>
+  <nd ref="1272589322"/>
+  <nd ref="1272589331"/>
+  <nd ref="1272589339"/>
+  <nd ref="1272589320"/>
+  <tag k="highway" v="primary"/>
+  <tag k="name" v="Karlovo náměstí"/>
+  <tag k="name:de" v="Karlsplatz"/>
+  <tag k="name:ru" v="Карлова площадь"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="42121691" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:43Z">
+  <nd ref="523637098"/>
+  <nd ref="523637100"/>
+  <nd ref="523637099"/>
+  <nd ref="523637118"/>
+  <nd ref="523637117"/>
+  <nd ref="703733500"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="111770904" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:25Z">
+  <nd ref="25656681"/>
+  <nd ref="1014525811"/>
+  <nd ref="21456613"/>
+  <tag k="railway" v="tram"/>
+ </way>
+ <way id="56067053" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:18Z">
+  <nd ref="703733479"/>
+  <nd ref="703733481"/>
+  <nd ref="703733483"/>
+  <nd ref="703733484"/>
+  <nd ref="703733505"/>
+  <nd ref="703733506"/>
+  <nd ref="703733507"/>
+  <nd ref="703733496"/>
+  <nd ref="703733498"/>
+  <nd ref="703733479"/>
+  <tag k="amenity" v="fountain"/>
+ </way>
+ <way id="56067055" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:18Z">
+  <nd ref="523637110"/>
+  <nd ref="703733488"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="42121692" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:29Z">
+  <nd ref="523637115"/>
+  <nd ref="523637118"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="42121694" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:29Z">
+  <nd ref="523637100"/>
+  <nd ref="523637101"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="56067054" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:18Z">
+  <nd ref="703733487"/>
+  <nd ref="523637107"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="42121684" user="jkjk" uid="23543" visible="true" version="2" changeset="4496180" timestamp="2010-04-22T15:53:43Z">
+  <nd ref="523637111"/>
+  <nd ref="523637112"/>
+  <nd ref="523637113"/>
+  <nd ref="523637128"/>
+  <nd ref="523637127"/>
+  <nd ref="703733502"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="56067057" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:18Z">
+  <nd ref="703733509"/>
+  <nd ref="703733511"/>
+  <nd ref="703733512"/>
+  <nd ref="703733520"/>
+  <nd ref="703733521"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="25921020" user="BiIbo" uid="3516" visible="true" version="3" changeset="7357800" timestamp="2011-02-21T23:22:32Z">
+  <nd ref="177185419"/>
+  <nd ref="1165960444"/>
+  <nd ref="282751621"/>
+  <nd ref="1165960259"/>
+  <nd ref="583315133"/>
+  <nd ref="1165960397"/>
+  <nd ref="583315137"/>
+  <nd ref="1165960311"/>
+  <nd ref="282751619"/>
+  <nd ref="1165960200"/>
+  <nd ref="1165960394"/>
+  <nd ref="177185403"/>
+  <nd ref="1165960304"/>
+  <nd ref="1165960216"/>
+  <nd ref="1165960253"/>
+  <nd ref="1165960360"/>
+  <nd ref="177185419"/>
+  <tag k="leisure" v="park"/>
+ </way>
+ <way id="35833480" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:40:17Z">
+  <nd ref="418950977"/>
+  <nd ref="418956013"/>
+  <nd ref="418956014"/>
+  <nd ref="418956024"/>
+  <nd ref="418956015"/>
+  <nd ref="418956016"/>
+  <nd ref="418956017"/>
+  <nd ref="418956018"/>
+  <nd ref="418956019"/>
+  <nd ref="418950978"/>
+  <nd ref="418950977"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="30764132" user="Jandrs" uid="248441" visible="true" version="10" changeset="8053630" timestamp="2011-05-04T23:43:47Z">
+  <nd ref="21672816"/>
+  <nd ref="1272593674"/>
+  <nd ref="1031068869"/>
+  <nd ref="703733451"/>
+  <nd ref="1165956849"/>
+  <nd ref="21672823"/>
+  <tag k="access:forward" v="destination"/>
+  <tag k="bus" v="no"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Karlovo náměstí"/>
+  <tag k="name:de" v="Karlsplatz"/>
+  <tag k="name:ru" v="Карлова площадь"/>
+ </way>
+ <way id="35832879" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:40:17Z">
+  <nd ref="418950967"/>
+  <nd ref="418950977"/>
+  <nd ref="418950978"/>
+  <nd ref="418950979"/>
+  <nd ref="418950982"/>
+  <nd ref="418950981"/>
+  <nd ref="418950980"/>
+  <nd ref="418950968"/>
+  <nd ref="418950967"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="25921019" user="Jandrs" uid="248441" visible="true" version="4" changeset="8053573" timestamp="2011-05-04T23:26:37Z">
+  <nd ref="177185435"/>
+  <nd ref="703733511"/>
+  <nd ref="583315110"/>
+  <nd ref="177185447"/>
+  <nd ref="282751615"/>
+  <nd ref="282751617"/>
+  <nd ref="523637096"/>
+  <nd ref="177185385"/>
+  <nd ref="703733489"/>
+  <nd ref="703733522"/>
+  <nd ref="703733523"/>
+  <nd ref="703733518"/>
+  <nd ref="703733520"/>
+  <nd ref="703733513"/>
+  <nd ref="1272589317"/>
+  <nd ref="177185435"/>
+  <tag k="leisure" v="park"/>
+ </way>
+ <way id="42121688" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:28Z">
+  <nd ref="523637113"/>
+  <nd ref="523637108"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="4891735" user="Jandrs" uid="248441" visible="true" version="11" changeset="8053630" timestamp="2011-05-04T23:43:47Z">
+  <nd ref="21456614"/>
+  <nd ref="290036009"/>
+  <nd ref="1031068844"/>
+  <nd ref="21672816"/>
+  <tag k="railway" v="tram"/>
+ </way>
+ <way id="35833486" user="BiIbo" uid="3516" visible="true" version="4" changeset="7357800" timestamp="2011-02-21T23:36:36Z">
+  <nd ref="418956014"/>
+  <nd ref="418956050"/>
+  <nd ref="418956051"/>
+  <nd ref="418956025"/>
+  <nd ref="418956024"/>
+  <nd ref="418956014"/>
+  <tag k="amenity" v="hospital"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="6"/>
+  <tag k="name" v="Fakultní poliklinika"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="45829160" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:22:38Z">
+  <nd ref="583315137"/>
+  <nd ref="1165960361"/>
+  <nd ref="1165960255"/>
+  <nd ref="1165960222"/>
+  <nd ref="583315133"/>
+  <nd ref="1165960365"/>
+  <nd ref="583315166"/>
+  <nd ref="583315167"/>
+  <nd ref="1165960335"/>
+  <nd ref="583315168"/>
+  <nd ref="1165960203"/>
+  <nd ref="583315169"/>
+  <nd ref="583315170"/>
+  <nd ref="1165960287"/>
+  <nd ref="583315171"/>
+  <nd ref="1165960403"/>
+  <nd ref="583315137"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="27804640" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-21T23:45:09Z">
+  <nd ref="305281127"/>
+  <nd ref="305281130"/>
+  <nd ref="305281131"/>
+  <nd ref="305281132"/>
+  <nd ref="305281133"/>
+  <nd ref="305281135"/>
+  <nd ref="305281136"/>
+  <nd ref="305281129"/>
+  <nd ref="305281127"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="5"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="4083701" user="Jandrs" uid="248441" visible="true" version="15" changeset="8053630" timestamp="2011-05-04T23:43:48Z">
+  <nd ref="21672816"/>
+  <nd ref="1031068832"/>
+  <nd ref="25935949"/>
+  <nd ref="282762575"/>
+  <nd ref="1167635096"/>
+  <nd ref="21672832"/>
+  <nd ref="1167635072"/>
+  <nd ref="25935967"/>
+  <nd ref="25936010"/>
+  <nd ref="25935991"/>
+  <nd ref="177728744"/>
+  <nd ref="305807707"/>
+  <tag k="railway" v="tram"/>
+ </way>
+ <way id="42121687" user="Petr Dlouhý" uid="17615" visible="true" version="1" changeset="2767713" timestamp="2009-10-07T06:55:28Z">
+  <nd ref="523637128"/>
+  <nd ref="523637125"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="56067050" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053573" timestamp="2011-05-04T23:26:39Z">
+  <nd ref="703733472"/>
+  <nd ref="703733473"/>
+  <nd ref="1272589341"/>
+  <nd ref="703733476"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="27804641" user="BiIbo" uid="3516" visible="true" version="2" changeset="7357800" timestamp="2011-02-22T00:06:29Z">
+  <nd ref="305281137"/>
+  <nd ref="305281138"/>
+  <nd ref="304756659"/>
+  <nd ref="305281139"/>
+  <nd ref="305281137"/>
+  <tag k="building" v="yes"/>
+  <tag k="building:levels" v="4"/>
+  <tag k="source" v="cuzk:km"/>
+ </way>
+ <way id="56067049" user="Jandrs" uid="248441" visible="true" version="2" changeset="8053573" timestamp="2011-05-04T23:26:36Z">
+  <nd ref="523637090"/>
+  <nd ref="703733509"/>
+  <nd ref="1272589336"/>
+  <nd ref="703733514"/>
+  <nd ref="703733515"/>
+  <nd ref="703733521"/>
+  <nd ref="703733519"/>
+  <nd ref="523637140"/>
+  <nd ref="523637139"/>
+  <nd ref="523637141"/>
+  <nd ref="523637122"/>
+  <nd ref="523637129"/>
+  <nd ref="703733493"/>
+  <nd ref="523637116"/>
+  <nd ref="679235585"/>
+  <nd ref="703733477"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="56067052" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:18Z">
+  <nd ref="523637114"/>
+  <nd ref="703733494"/>
+  <nd ref="703733492"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="56067048" user="jkjk" uid="23543" visible="true" version="1" changeset="4496180" timestamp="2010-04-22T15:53:17Z">
+  <nd ref="703733470"/>
+  <nd ref="703733472"/>
+  <nd ref="523637090"/>
+  <nd ref="523637104"/>
+  <nd ref="523637105"/>
+  <tag k="highway" v="footway"/>
+  <tag k="source" v="uhul:ortofoto"/>
+ </way>
+ <way id="35833514" user="BiIbo" uid="3516" visible="true" version="1" changeset="1492026" timestamp="2009-06-11T22:28:50Z">
+  <nd ref="418956018"/>
+  <nd ref="418956013"/>
+  <tag k="highway" v="footway"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <relation id="104739" user="Jandrs" uid="248441" visible="true" version="14" changeset="8053573" timestamp="2011-05-04T23:26:37Z">
+  <member type="way" ref="4083701" role=""/>
+  <member type="way" ref="4086142" role=""/>
+  <member type="way" ref="4086144" role=""/>
+  <member type="way" ref="4097030" role=""/>
+  <member type="way" ref="4319511" role=""/>
+  <member type="way" ref="4323227" role=""/>
+  <member type="way" ref="111770904" role=""/>
+  <member type="way" ref="4323228" role=""/>
+  <member type="way" ref="106518154" role=""/>
+  <member type="way" ref="4323230" role=""/>
+  <member type="way" ref="4335620" role=""/>
+  <member type="way" ref="4891735" role=""/>
+  <member type="way" ref="9680677" role=""/>
+  <member type="way" ref="9681031" role=""/>
+  <member type="way" ref="22634533" role=""/>
+  <member type="way" ref="22634536" role=""/>
+  <member type="way" ref="22699617" role=""/>
+  <member type="way" ref="22699694" role=""/>
+  <member type="way" ref="22757133" role=""/>
+  <member type="way" ref="22757134" role=""/>
+  <member type="way" ref="42147560" role=""/>
+  <member type="way" ref="22758263" role=""/>
+  <member type="way" ref="109084455" role=""/>
+  <member type="way" ref="24579573" role=""/>
+  <member type="way" ref="24579574" role=""/>
+  <member type="way" ref="24963977" role=""/>
+  <member type="way" ref="27122518" role=""/>
+  <member type="way" ref="27248715" role=""/>
+  <member type="way" ref="30077768" role=""/>
+  <member type="way" ref="40432913" role=""/>
+  <member type="way" ref="40433574" role=""/>
+  <member type="way" ref="30096772" role=""/>
+  <member type="way" ref="30096773" role=""/>
+  <member type="way" ref="39534340" role=""/>
+  <member type="way" ref="106520838" role=""/>
+  <member type="way" ref="41386472" role=""/>
+  <member type="way" ref="32547964" role=""/>
+  <member type="way" ref="32548009" role=""/>
+  <member type="way" ref="32548010" role=""/>
+  <member type="way" ref="32548011" role=""/>
+  <member type="way" ref="32548012" role=""/>
+  <member type="way" ref="32548015" role=""/>
+  <member type="way" ref="32548116" role=""/>
+  <member type="way" ref="32548179" role=""/>
+  <member type="way" ref="32548180" role=""/>
+  <tag k="color" v="#F7D09B"/>
+  <tag k="complete" v="no"/>
+  <tag k="network" v="PID"/>
+  <tag k="operator" v="cz:DPP"/>
+  <tag k="ref" v="6"/>
+  <tag k="route" v="tram"/>
+  <tag k="source" v="local_knowledge"/>
+  <tag k="text_color" v="beige"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="36240" user="Jandrs" uid="248441" visible="true" version="40" changeset="8053573" timestamp="2011-05-04T23:26:33Z">
+  <member type="way" ref="95598764" role=""/>
+  <member type="way" ref="95598746" role=""/>
+  <member type="way" ref="22870176" role=""/>
+  <member type="way" ref="4052154" role=""/>
+  <member type="way" ref="4415199" role=""/>
+  <member type="way" ref="4643643" role=""/>
+  <member type="way" ref="12032155" role=""/>
+  <member type="way" ref="22870181" role=""/>
+  <member type="way" ref="22870182" role=""/>
+  <member type="way" ref="8882014" role=""/>
+  <member type="way" ref="8882013" role=""/>
+  <member type="way" ref="4052706" role=""/>
+  <member type="way" ref="107578457" role=""/>
+  <member type="way" ref="4053779" role=""/>
+  <member type="way" ref="4052607" role=""/>
+  <member type="way" ref="40432914" role=""/>
+  <member type="way" ref="4052797" role=""/>
+  <member type="way" ref="8102321" role=""/>
+  <member type="way" ref="33281724" role=""/>
+  <member type="way" ref="33281723" role=""/>
+  <member type="way" ref="40432912" role=""/>
+  <member type="way" ref="10157972" role=""/>
+  <member type="way" ref="107576566" role=""/>
+  <member type="way" ref="24902851" role=""/>
+  <member type="way" ref="107684970" role=""/>
+  <member type="way" ref="24457575" role=""/>
+  <member type="way" ref="30169177" role=""/>
+  <member type="way" ref="100900274" role=""/>
+  <member type="way" ref="109248217" role=""/>
+  <member type="way" ref="9681032" role=""/>
+  <member type="way" ref="9681031" role=""/>
+  <member type="way" ref="111770904" role=""/>
+  <member type="way" ref="4323227" role=""/>
+  <member type="way" ref="32547964" role=""/>
+  <member type="way" ref="22757133" role=""/>
+  <member type="way" ref="22757134" role=""/>
+  <member type="way" ref="42147560" role=""/>
+  <member type="way" ref="24579573" role=""/>
+  <member type="way" ref="24579574" role=""/>
+  <member type="way" ref="4319511" role=""/>
+  <member type="way" ref="30619203" role=""/>
+  <member type="way" ref="30619202" role=""/>
+  <member type="way" ref="27852193" role=""/>
+  <member type="way" ref="4323229" role=""/>
+  <member type="way" ref="4086159" role=""/>
+  <member type="way" ref="4820234" role=""/>
+  <member type="way" ref="4820233" role=""/>
+  <member type="way" ref="87249763" role=""/>
+  <member type="way" ref="4516273" role=""/>
+  <member type="way" ref="9569872" role=""/>
+  <member type="way" ref="9569871" role=""/>
+  <member type="way" ref="4053156" role=""/>
+  <member type="way" ref="4052228" role=""/>
+  <member type="way" ref="28158988" role=""/>
+  <member type="way" ref="28158987" role=""/>
+  <member type="way" ref="8111406" role=""/>
+  <member type="way" ref="32548471" role=""/>
+  <member type="way" ref="78008329" role=""/>
+  <member type="way" ref="26427939" role=""/>
+  <member type="way" ref="53693233" role=""/>
+  <member type="way" ref="8111403" role=""/>
+  <member type="way" ref="74666455" role=""/>
+  <member type="way" ref="66771017" role=""/>
+  <member type="way" ref="74666441" role=""/>
+  <member type="way" ref="101969607" role=""/>
+  <member type="way" ref="60769794" role=""/>
+  <member type="way" ref="74585286" role=""/>
+  <member type="way" ref="32617119" role=""/>
+  <member type="way" ref="23112916" role=""/>
+  <member type="way" ref="109374678" role=""/>
+  <member type="node" ref="703214" role="stop_21"/>
+  <member type="node" ref="25658248" role="stop_15"/>
+  <member type="node" ref="74185201" role="stop_11"/>
+  <member type="node" ref="74218296" role="stop_14"/>
+  <member type="node" ref="74218301" role="stop_14"/>
+  <member type="node" ref="74218306" role="stop_12"/>
+  <member type="node" ref="249235863" role=""/>
+  <member type="node" ref="249524871" role="stop_0"/>
+  <member type="node" ref="249525014" role="stop_3"/>
+  <member type="node" ref="249525256" role="stop_4"/>
+  <member type="node" ref="249526769" role="stop_7"/>
+  <member type="node" ref="276837842" role="stop_10"/>
+  <member type="node" ref="276838823" role="stop_6"/>
+  <member type="node" ref="276838825" role="stop_5"/>
+  <member type="node" ref="276838826" role="stop_2"/>
+  <member type="node" ref="276838827" role="stop_1"/>
+  <member type="node" ref="282096324" role="stop_17"/>
+  <member type="node" ref="282762796" role="stop_18"/>
+  <member type="node" ref="282762797" role="stop_18"/>
+  <member type="node" ref="290036010" role="stop_16"/>
+  <member type="node" ref="290036011" role="stop_16"/>
+  <member type="node" ref="297761805" role="stop_20"/>
+  <member type="node" ref="297761806" role="stop_19"/>
+  <member type="node" ref="303879733" role="stop_10"/>
+  <member type="node" ref="310252316" role="stop_13"/>
+  <member type="node" ref="889215411" role=""/>
+  <tag k="color" v="#ABD02C"/>
+  <tag k="complete" v="no"/>
+  <tag k="network" v="PID"/>
+  <tag k="operator" v="cz:DPP"/>
+  <tag k="ref" v="18"/>
+  <tag k="route" v="tram"/>
+  <tag k="source" v="local_knowledge"/>
+  <tag k="text_color" v="lime"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="67790" user="Jandrs" uid="248441" visible="true" version="16" changeset="8053448" timestamp="2011-05-04T22:53:04Z">
+  <member type="way" ref="4053743" role=""/>
+  <member type="way" ref="39534339" role=""/>
+  <member type="way" ref="4083701" role=""/>
+  <member type="way" ref="4097030" role=""/>
+  <member type="way" ref="4335620" role=""/>
+  <member type="way" ref="4340759" role=""/>
+  <member type="way" ref="4415012" role=""/>
+  <member type="way" ref="4630063" role=""/>
+  <member type="way" ref="4643789" role=""/>
+  <member type="way" ref="37879084" role=""/>
+  <member type="way" ref="9580198" role=""/>
+  <member type="way" ref="9680677" role=""/>
+  <member type="way" ref="9681032" role=""/>
+  <member type="way" ref="109248217" role=""/>
+  <member type="way" ref="100900274" role=""/>
+  <member type="way" ref="22634551" role=""/>
+  <member type="way" ref="22699617" role=""/>
+  <member type="way" ref="22699694" role=""/>
+  <member type="way" ref="22758263" role=""/>
+  <member type="way" ref="109084455" role=""/>
+  <member type="way" ref="23093613" role=""/>
+  <member type="way" ref="111767906" role=""/>
+  <member type="way" ref="24939983" role=""/>
+  <member type="way" ref="27854025" role=""/>
+  <member type="way" ref="27854722" role=""/>
+  <member type="way" ref="27854723" role=""/>
+  <member type="way" ref="28311612" role=""/>
+  <member type="way" ref="28311614" role=""/>
+  <member type="way" ref="32548011" role=""/>
+  <member type="way" ref="32548179" role=""/>
+  <member type="way" ref="32548180" role=""/>
+  <member type="way" ref="32548324" role=""/>
+  <member type="way" ref="32548326" role=""/>
+  <member type="way" ref="32548327" role=""/>
+  <member type="way" ref="80779624" role=""/>
+  <member type="way" ref="32548329" role=""/>
+  <member type="node" ref="290036011" role=""/>
+  <member type="node" ref="290036009" role=""/>
+  <member type="way" ref="4891735" role=""/>
+  <tag k="color" v="#9BD6F9"/>
+  <tag k="complete" v="no"/>
+  <tag k="network" v="PID"/>
+  <tag k="operator" v="cz:DPP"/>
+  <tag k="ref" v="4"/>
+  <tag k="route" v="tram"/>
+  <tag k="source" v="survey"/>
+  <tag k="text_color" v="light_blue"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="104732" user="Jandrs" uid="248441" visible="true" version="14" changeset="8053448" timestamp="2011-05-04T22:53:02Z">
+  <member type="way" ref="109374684" role=""/>
+  <member type="way" ref="23793916" role=""/>
+  <member type="way" ref="32547641" role=""/>
+  <member type="way" ref="32547640" role=""/>
+  <member type="way" ref="32547639" role=""/>
+  <member type="way" ref="23793874" role=""/>
+  <member type="way" ref="32548603" role=""/>
+  <member type="way" ref="32547570" role=""/>
+  <member type="way" ref="22743662" role=""/>
+  <member type="way" ref="22743661" role=""/>
+  <member type="way" ref="32548710" role=""/>
+  <member type="way" ref="32548708" role=""/>
+  <member type="way" ref="32548707" role=""/>
+  <member type="way" ref="22743646" role=""/>
+  <member type="way" ref="32548706" role=""/>
+  <member type="way" ref="81975826" role=""/>
+  <member type="way" ref="41386150" role=""/>
+  <member type="way" ref="41386149" role=""/>
+  <member type="way" ref="31556976" role=""/>
+  <member type="way" ref="31556975" role=""/>
+  <member type="way" ref="24939643" role=""/>
+  <member type="way" ref="24939644" role=""/>
+  <member type="way" ref="31556747" role=""/>
+  <member type="way" ref="4340759" role=""/>
+  <member type="way" ref="27854722" role=""/>
+  <member type="way" ref="27854723" role=""/>
+  <member type="way" ref="4630063" role=""/>
+  <member type="way" ref="24939983" role=""/>
+  <member type="way" ref="4335620" role=""/>
+  <member type="way" ref="4097030" role=""/>
+  <member type="way" ref="27854025" role=""/>
+  <member type="way" ref="4083701" role=""/>
+  <member type="way" ref="4891735" role=""/>
+  <member type="way" ref="9681032" role=""/>
+  <member type="way" ref="109248217" role=""/>
+  <member type="way" ref="100900274" role=""/>
+  <member type="way" ref="4415012" role=""/>
+  <member type="way" ref="23093613" role=""/>
+  <member type="way" ref="111767906" role=""/>
+  <member type="way" ref="28311612" role=""/>
+  <member type="way" ref="28311614" role=""/>
+  <member type="way" ref="4053743" role=""/>
+  <member type="way" ref="39534339" role=""/>
+  <member type="way" ref="9680677" role=""/>
+  <member type="way" ref="109084455" role=""/>
+  <member type="way" ref="22758263" role=""/>
+  <member type="way" ref="22699694" role=""/>
+  <member type="way" ref="32548179" role=""/>
+  <member type="way" ref="32548180" role=""/>
+  <member type="way" ref="22699617" role=""/>
+  <tag k="color" v="#A9C1D1"/>
+  <tag k="complete" v="2010-02-02"/>
+  <tag k="network" v="PID"/>
+  <tag k="operator" v="cz:DPP"/>
+  <tag k="ref" v="16"/>
+  <tag k="route" v="tram"/>
+  <tag k="source" v="local_knowledge"/>
+  <tag k="text_color" v="silver"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="66011" user="Jandrs" uid="248441" visible="true" version="30" changeset="8053573" timestamp="2011-05-04T23:26:28Z">
+  <member type="way" ref="4711876" role=""/>
+  <member type="way" ref="46983778" role=""/>
+  <member type="way" ref="22757949" role=""/>
+  <member type="way" ref="32617270" role=""/>
+  <member type="way" ref="22758208" role=""/>
+  <member type="way" ref="22757974" role=""/>
+  <member type="way" ref="27116696" role=""/>
+  <member type="way" ref="86501522" role=""/>
+  <member type="way" ref="32617121" role=""/>
+  <member type="way" ref="20628949" role=""/>
+  <member type="way" ref="32617120" role=""/>
+  <member type="way" ref="27564944" role=""/>
+  <member type="way" ref="28158987" role=""/>
+  <member type="way" ref="28158988" role=""/>
+  <member type="way" ref="4052228" role=""/>
+  <member type="way" ref="4053156" role=""/>
+  <member type="way" ref="9569871" role=""/>
+  <member type="way" ref="27566201" role=""/>
+  <member type="way" ref="28521716" role=""/>
+  <member type="way" ref="27629358" role=""/>
+  <member type="way" ref="27629357" role=""/>
+  <member type="way" ref="30765662" role=""/>
+  <member type="way" ref="4086154" role=""/>
+  <member type="way" ref="9570994" role=""/>
+  <member type="way" ref="4086147" role=""/>
+  <member type="way" ref="56183634" role=""/>
+  <member type="way" ref="4323233" role=""/>
+  <member type="way" ref="30096686" role=""/>
+  <member type="way" ref="4086146" role=""/>
+  <member type="way" ref="27122516" role=""/>
+  <member type="way" ref="4323230" role=""/>
+  <member type="way" ref="40316234" role=""/>
+  <member type="way" ref="40316235" role=""/>
+  <member type="way" ref="4323228" role=""/>
+  <member type="way" ref="106518154" role=""/>
+  <member type="way" ref="27248715" role=""/>
+  <member type="way" ref="4319511" role=""/>
+  <member type="way" ref="24579574" role=""/>
+  <member type="way" ref="24579573" role=""/>
+  <member type="way" ref="42147560" role=""/>
+  <member type="way" ref="22757134" role=""/>
+  <member type="way" ref="22757133" role=""/>
+  <member type="way" ref="32547964" role=""/>
+  <member type="way" ref="4323227" role=""/>
+  <member type="way" ref="111770904" role=""/>
+  <member type="way" ref="9681031" role=""/>
+  <member type="way" ref="4891735" role=""/>
+  <member type="way" ref="4083701" role=""/>
+  <member type="way" ref="27854025" role=""/>
+  <member type="way" ref="4097030" role=""/>
+  <member type="way" ref="4335620" role=""/>
+  <member type="way" ref="24939983" role=""/>
+  <member type="way" ref="4630063" role=""/>
+  <member type="way" ref="27854723" role=""/>
+  <member type="way" ref="27854722" role=""/>
+  <member type="way" ref="4340759" role=""/>
+  <member type="way" ref="32548324" role=""/>
+  <member type="way" ref="32548326" role=""/>
+  <member type="way" ref="9580198" role=""/>
+  <member type="way" ref="32548327" role=""/>
+  <member type="way" ref="80779624" role=""/>
+  <member type="way" ref="28282163" role=""/>
+  <member type="way" ref="32548015" role=""/>
+  <member type="way" ref="32548013" role=""/>
+  <member type="way" ref="32617421" role=""/>
+  <member type="way" ref="22634522" role=""/>
+  <member type="way" ref="32547575" role=""/>
+  <member type="way" ref="32547576" role=""/>
+  <member type="way" ref="32547577" role=""/>
+  <member type="way" ref="33240448" role=""/>
+  <member type="way" ref="26249024" role=""/>
+  <member type="way" ref="26249027" role=""/>
+  <member type="way" ref="26249034" role=""/>
+  <member type="way" ref="26249032" role=""/>
+  <member type="way" ref="33240444" role=""/>
+  <member type="way" ref="26249237" role=""/>
+  <member type="way" ref="26249235" role=""/>
+  <member type="way" ref="22821741" role=""/>
+  <member type="node" ref="26065846" role="stop"/>
+  <member type="node" ref="282743506" role="stop"/>
+  <member type="node" ref="610983906" role="stop"/>
+  <member type="node" ref="340037057" role="stop"/>
+  <member type="node" ref="244238499" role="stop"/>
+  <member type="node" ref="244238496" role="stop"/>
+  <member type="node" ref="340037058" role="stop"/>
+  <member type="node" ref="244238488" role="stop"/>
+  <member type="node" ref="244238482" role="stop"/>
+  <member type="node" ref="360673750" role="stop"/>
+  <member type="node" ref="671715598" role="stop"/>
+  <member type="node" ref="671715594" role="stop"/>
+  <member type="node" ref="276837845" role="stop"/>
+  <member type="node" ref="276837844" role="stop"/>
+  <member type="node" ref="276837843" role="stop"/>
+  <member type="node" ref="74185201" role="stop"/>
+  <member type="node" ref="21711416" role="stop"/>
+  <member type="node" ref="74196163" role="stop"/>
+  <member type="node" ref="74218292" role="stop"/>
+  <member type="node" ref="21711419" role="stop"/>
+  <member type="node" ref="74218289" role="stop"/>
+  <member type="node" ref="74218301" role="stop"/>
+  <member type="node" ref="25658248" role="stop"/>
+  <member type="node" ref="290036010" role="stop"/>
+  <tag k="color" v="#4D8475"/>
+  <tag k="complete" v="no"/>
+  <tag k="network" v="PID"/>
+  <tag k="operator" v="cz:DPP"/>
+  <tag k="ref" v="22"/>
+  <tag k="route" v="tram"/>
+  <tag k="source" v="survey;local_knowledge"/>
+  <tag k="text_color" v="teal"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="105475" user="Jandrs" uid="248441" visible="true" version="18" changeset="8053573" timestamp="2011-05-04T23:26:31Z">
+  <member type="way" ref="4052049" role=""/>
+  <member type="way" ref="42086857" role=""/>
+  <member type="way" ref="4052797" role=""/>
+  <member type="way" ref="4086186" role=""/>
+  <member type="way" ref="4323227" role=""/>
+  <member type="way" ref="111770904" role=""/>
+  <member type="way" ref="4341446" role=""/>
+  <member type="way" ref="4387742" role=""/>
+  <member type="way" ref="4415010" role=""/>
+  <member type="way" ref="4641241" role=""/>
+  <member type="way" ref="4641285" role=""/>
+  <member type="way" ref="4690422" role=""/>
+  <member type="way" ref="4704605" role=""/>
+  <member type="way" ref="8102321" role=""/>
+  <member type="way" ref="8134336" role=""/>
+  <member type="way" ref="8134337" role=""/>
+  <member type="way" ref="9580211" role=""/>
+  <member type="way" ref="9580216" role=""/>
+  <member type="way" ref="9584323" role=""/>
+  <member type="way" ref="9681031" role=""/>
+  <member type="way" ref="9681032" role=""/>
+  <member type="way" ref="109248217" role=""/>
+  <member type="way" ref="100900274" role=""/>
+  <member type="way" ref="10157972" role=""/>
+  <member type="way" ref="40432912" role=""/>
+  <member type="way" ref="16274885" role=""/>
+  <member type="way" ref="22634533" role=""/>
+  <member type="way" ref="22634536" role=""/>
+  <member type="way" ref="22663459" role=""/>
+  <member type="way" ref="42959318" role=""/>
+  <member type="way" ref="22767550" role=""/>
+  <member type="way" ref="24457575" role=""/>
+  <member type="way" ref="107684970" role=""/>
+  <member type="way" ref="24902851" role=""/>
+  <member type="way" ref="107576566" role=""/>
+  <member type="way" ref="24963683" role=""/>
+  <member type="way" ref="24963977" role=""/>
+  <member type="way" ref="26543630" role=""/>
+  <member type="way" ref="39473903" role=""/>
+  <member type="way" ref="26543632" role=""/>
+  <member type="way" ref="27142968" role=""/>
+  <member type="way" ref="27334620" role=""/>
+  <member type="way" ref="27334621" role=""/>
+  <member type="way" ref="27334797" role=""/>
+  <member type="way" ref="42146707" role=""/>
+  <member type="way" ref="27335254" role=""/>
+  <member type="way" ref="27335470" role=""/>
+  <member type="way" ref="27335471" role=""/>
+  <member type="way" ref="27448697" role=""/>
+  <member type="way" ref="30169177" role=""/>
+  <member type="way" ref="30324001" role=""/>
+  <member type="way" ref="61235977" role=""/>
+  <member type="way" ref="61235979" role=""/>
+  <member type="way" ref="30983257" role=""/>
+  <member type="way" ref="31957097" role=""/>
+  <member type="way" ref="32547755" role=""/>
+  <member type="way" ref="32547964" role=""/>
+  <member type="way" ref="32548009" role=""/>
+  <member type="way" ref="32548010" role=""/>
+  <member type="way" ref="32548011" role=""/>
+  <member type="way" ref="32548012" role=""/>
+  <member type="way" ref="32548015" role=""/>
+  <member type="way" ref="32548469" role=""/>
+  <member type="way" ref="33281723" role=""/>
+  <member type="way" ref="33281724" role=""/>
+  <member type="way" ref="87528050" role=""/>
+  <member type="way" ref="87528020" role=""/>
+  <member type="way" ref="16275816" role=""/>
+  <tag k="color" v="#9C7275"/>
+  <tag k="complete" v="no"/>
+  <tag k="network" v="PID"/>
+  <tag k="operator" v="cz:DPP"/>
+  <tag k="ref" v="24"/>
+  <tag k="route" v="tram"/>
+  <tag k="source" v="local_knowledge"/>
+  <tag k="text_color" v="saddle_brown"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="104751" user="Jandrs" uid="248441" visible="true" version="17" changeset="8053448" timestamp="2011-05-04T22:52:55Z">
+  <member type="way" ref="4052049" role=""/>
+  <member type="way" ref="42086857" role=""/>
+  <member type="way" ref="4053743" role=""/>
+  <member type="way" ref="39534339" role=""/>
+  <member type="way" ref="4083701" role=""/>
+  <member type="way" ref="4086186" role=""/>
+  <member type="way" ref="4097030" role=""/>
+  <member type="way" ref="4335620" role=""/>
+  <member type="way" ref="4340759" role=""/>
+  <member type="way" ref="4415012" role=""/>
+  <member type="way" ref="4630063" role=""/>
+  <member type="way" ref="89251602" role=""/>
+  <member type="way" ref="4891735" role=""/>
+  <member type="way" ref="8134336" role=""/>
+  <member type="way" ref="8134337" role=""/>
+  <member type="way" ref="9584323" role=""/>
+  <member type="way" ref="9680677" role=""/>
+  <member type="way" ref="9681032" role=""/>
+  <member type="way" ref="109248217" role=""/>
+  <member type="way" ref="100900274" role=""/>
+  <member type="way" ref="16274885" role=""/>
+  <member type="way" ref="101936829" role=""/>
+  <member type="way" ref="16275816" role=""/>
+  <member type="way" ref="16275887" role=""/>
+  <member type="way" ref="16275891" role=""/>
+  <member type="way" ref="22699270" role=""/>
+  <member type="way" ref="22699271" role=""/>
+  <member type="way" ref="22699694" role=""/>
+  <member type="way" ref="22743646" role=""/>
+  <member type="way" ref="22743661" role=""/>
+  <member type="way" ref="22743662" role=""/>
+  <member type="way" ref="22758263" role=""/>
+  <member type="way" ref="109084455" role=""/>
+  <member type="way" ref="22767550" role=""/>
+  <member type="way" ref="23093613" role=""/>
+  <member type="way" ref="111767906" role=""/>
+  <member type="way" ref="24939643" role=""/>
+  <member type="way" ref="24939644" role=""/>
+  <member type="way" ref="24939983" role=""/>
+  <member type="way" ref="27854025" role=""/>
+  <member type="way" ref="27854722" role=""/>
+  <member type="way" ref="27854723" role=""/>
+  <member type="way" ref="28311612" role=""/>
+  <member type="way" ref="28311614" role=""/>
+  <member type="way" ref="31556747" role=""/>
+  <member type="way" ref="31556975" role=""/>
+  <member type="way" ref="31556976" role=""/>
+  <member type="way" ref="41386149" role=""/>
+  <member type="way" ref="41386150" role=""/>
+  <member type="way" ref="81975826" role=""/>
+  <member type="way" ref="31957097" role=""/>
+  <member type="way" ref="31957098" role=""/>
+  <member type="way" ref="32547570" role=""/>
+  <member type="way" ref="32547637" role=""/>
+  <member type="way" ref="32547638" role=""/>
+  <member type="way" ref="32548179" role=""/>
+  <member type="way" ref="32548180" role=""/>
+  <member type="way" ref="32548603" role=""/>
+  <member type="way" ref="32548706" role=""/>
+  <member type="way" ref="32548707" role=""/>
+  <member type="way" ref="32548708" role=""/>
+  <member type="way" ref="32548710" role=""/>
+  <tag k="color" v="#00A64C"/>
+  <tag k="complete" v="no"/>
+  <tag k="network" v="PID"/>
+  <tag k="operator" v="cz:DPP"/>
+  <tag k="ref" v="10"/>
+  <tag k="route" v="tram"/>
+  <tag k="source" v="survey"/>
+  <tag k="text_color" v="green"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="104728" user="Jandrs" uid="248441" visible="true" version="17" changeset="8053573" timestamp="2011-05-04T23:26:39Z">
+  <member type="way" ref="4052746" role=""/>
+  <member type="way" ref="4086167" role=""/>
+  <member type="way" ref="4323227" role=""/>
+  <member type="way" ref="111770904" role=""/>
+  <member type="way" ref="4387742" role=""/>
+  <member type="way" ref="4415010" role=""/>
+  <member type="way" ref="4415012" role=""/>
+  <member type="way" ref="4640142" role=""/>
+  <member type="way" ref="108955728" role=""/>
+  <member type="way" ref="4641241" role=""/>
+  <member type="way" ref="4641285" role=""/>
+  <member type="way" ref="4690500" role=""/>
+  <member type="way" ref="4722513" role=""/>
+  <member type="way" ref="4722514" role=""/>
+  <member type="way" ref="4722515" role=""/>
+  <member type="way" ref="39744651" role=""/>
+  <member type="way" ref="98560954" role=""/>
+  <member type="way" ref="98560955" role=""/>
+  <member type="way" ref="4867351" role=""/>
+  <member type="way" ref="4890563" role=""/>
+  <member type="way" ref="9580183" role=""/>
+  <member type="way" ref="9580211" role=""/>
+  <member type="way" ref="9580216" role=""/>
+  <member type="way" ref="9584322" role=""/>
+  <member type="way" ref="9681031" role=""/>
+  <member type="way" ref="9681032" role=""/>
+  <member type="way" ref="109248217" role=""/>
+  <member type="way" ref="100900274" role=""/>
+  <member type="way" ref="13124430" role=""/>
+  <member type="way" ref="13125085" role=""/>
+  <member type="way" ref="14182380" role=""/>
+  <member type="way" ref="14356189" role=""/>
+  <member type="way" ref="16241417" role=""/>
+  <member type="way" ref="16242644" role=""/>
+  <member type="way" ref="41438672" role=""/>
+  <member type="way" ref="23014061" role=""/>
+  <member type="way" ref="23014062" role=""/>
+  <member type="way" ref="23018497" role=""/>
+  <member type="way" ref="23018498" role=""/>
+  <member type="way" ref="23093613" role=""/>
+  <member type="way" ref="111767906" role=""/>
+  <member type="way" ref="23926366" role=""/>
+  <member type="way" ref="23926367" role=""/>
+  <member type="way" ref="25320858" role=""/>
+  <member type="way" ref="25407554" role=""/>
+  <member type="way" ref="78880005" role=""/>
+  <member type="way" ref="78880004" role=""/>
+  <member type="way" ref="25921335" role=""/>
+  <member type="way" ref="25921337" role=""/>
+  <member type="way" ref="25921338" role=""/>
+  <member type="way" ref="25923345" role=""/>
+  <member type="way" ref="25923346" role=""/>
+  <member type="way" ref="26543630" role=""/>
+  <member type="way" ref="39473903" role=""/>
+  <member type="way" ref="26543632" role=""/>
+  <member type="way" ref="27335254" role=""/>
+  <member type="way" ref="27335470" role=""/>
+  <member type="way" ref="27335471" role=""/>
+  <member type="way" ref="28160822" role=""/>
+  <member type="way" ref="30983257" role=""/>
+  <member type="way" ref="32239930" role=""/>
+  <member type="way" ref="32547635" role=""/>
+  <member type="way" ref="32547636" role=""/>
+  <member type="way" ref="32547752" role=""/>
+  <member type="way" ref="32547754" role=""/>
+  <member type="way" ref="32547755" role=""/>
+  <member type="way" ref="32547757" role=""/>
+  <member type="way" ref="32547964" role=""/>
+  <member type="way" ref="4722520" role=""/>
+  <tag k="color" v="#352C92"/>
+  <tag k="complete" v="no"/>
+  <tag k="network" v="PID"/>
+  <tag k="operator" v="cz:DPP"/>
+  <tag k="ref" v="3"/>
+  <tag k="route" v="tram"/>
+  <tag k="source" v="local_knowledge"/>
+  <tag k="text_color" v="navy"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="1572818" user="Jandrs" uid="248441" visible="true" version="1" changeset="8053573" timestamp="2011-05-04T23:26:26Z">
+  <member type="node" ref="1272589324" role="via"/>
+  <member type="way" ref="111770905" role="to"/>
+  <member type="way" ref="111770909" role="from"/>
+  <tag k="restriction" v="only_straight_on"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+</osm>
