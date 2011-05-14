@@ -11,8 +11,7 @@ void Container::compute()
 		for (int i=0; i<size; ++i)
 		{
 			Node* adjacent = adjacentNodes->at(i);
-			int distance = Distance(smallest, adjacent) +
-				smallest->distanceFromStart;
+			int distance = Distance(smallest, adjacent) + smallest->distanceFromStart;
 			
 			if (distance < adjacent->distanceFromStart)
 			{

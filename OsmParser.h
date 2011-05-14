@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <exception>
+#include <math.h>
 #include <windows.h>
 #include <objidl.h>
 #include <gdiplus.h>

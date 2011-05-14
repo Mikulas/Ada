@@ -36,9 +36,9 @@ class Edge
 public:
 	Node* node1;
 	Node* node2;
-	int distance;
+	float distance;
 
-	Edge(Node* node1, Node* node2, int distance) : node1(node1), node2(node2), distance(distance)
+	Edge(Node* node1, Node* node2, float distance) : node1(node1), node2(node2), distance(distance)
 	{
 		
 	}

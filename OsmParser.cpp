@@ -45,6 +45,14 @@ char* getNodeTagValue(XMLElement* e, const char* key)
 	return attribute;
 }
 
+float getDistance(Location l1, Location l2)
+{
+	Location res;
+	res.lat = l1.lat - l2.lat;
+	res.lon = l1.lon - l2.lon;
+	return sqrt(res.lat * res.lat + res.lon * res.lon);
+}
+
 void DrawMap(const char* file, HDC hdc)
 {
 	
@@ -118,7 +126,7 @@ void DrawMap(const char* file, HDC hdc)
 			current = getNodeLocation(id, a);
 			if (last.lat != -1) {
 				graphics.DrawLine(&penBlack, last.lon, last.lat, current.lon, current.lat);
-				map.newEdge(id, last_id, 1); // TODO: compute distance
+				map.newEdge(id, last_id, getDistance(last, current)); // TODO: compute distance
 			}
 			last = current;
 			last_id = id;
