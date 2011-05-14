@@ -54,6 +54,7 @@ void DrawMap(const char* file, HDC hdc)
 	Graphics graphics(hdc);
 	Pen penBlue(Color(255, 0, 0, 255));
 	Pen penBlack(Color(255, 0, 0, 0));
+	Pen penRed(Color(255, 255, 0, 0));
 	
 	REAL lon = 0, lat = 0;
 	int num = a->GetRootElement()->GetChildrenNum();
@@ -62,13 +63,34 @@ void DrawMap(const char* file, HDC hdc)
 	int id = 0;
 	bool isPath = false;
 
-	// draw ways
+	Container map;
+
+	// draw nodes
+	int start = 523637130, finish = 418956013;
+	Node *nStart, *nFinish;
+
+	for (unsigned int i = 0; i < a->GetRootElement()->GetChildrenNum(); ++i) {
+		XMLElement* e = a->GetRootElement()->GetChildren()[i];
+		e->GetElementName(tag);
+		if (strcmp(tag, "node") != 0) continue;
+
+		Location loc = getNodeLocation(e);
+		//graphics.DrawEllipse(&penBlue, (int) loc.lon, (int) loc.lat, 3, 3);
+		int id = e->FindVariableZ("id", true)->GetValueInt();
+		map.newNode(id);
+	}
+
+	nStart = map.getNodeById(start);
+	nFinish = map.getNodeById(finish);
+
+	// draw ways	
 	for (unsigned int i = 0; i < a->GetRootElement()->GetChildrenNum(); ++i) {
 		isPath = false;
 		XMLElement* e = a->GetRootElement()->GetChildren()[i];
 		e->GetElementName(tag);
 		if (strcmp(tag, "way") != 0) continue;
 
+		int last_id;
 		Location last, current;
 		last.lat = -1;
 
@@ -94,19 +116,34 @@ void DrawMap(const char* file, HDC hdc)
 
 			id = node->FindVariableZ("ref", true)->GetValueInt();
 			current = getNodeLocation(id, a);
-			if (last.lat != -1)
+			if (last.lat != -1) {
 				graphics.DrawLine(&penBlack, last.lon, last.lat, current.lon, current.lat);
+				map.newEdge(id, last_id, 1); // TODO: compute distance
+			}
 			last = current;
+			last_id = id;
 		}
 	}
 
-	/*// draw nodes
-	for (unsigned int i = 0; i < a->GetRootElement()->GetChildrenNum(); ++i) {
-		XMLElement* e = a->GetRootElement()->GetChildren()[i];
-		e->GetElementName(tag);
-		if (strcmp(tag, "node") != 0) continue;
+	vector<int> moves = map.findRoute(nStart, nFinish);
 
-		Location loc = getNodeLocation(e);
-		graphics.DrawEllipse(&penBlue, (int) loc.lon, (int) loc.lat, 3, 3);
-	}*/
+	// draw start and finish nodes
+	{
+		Location lStart = getNodeLocation(start, a);
+		Location lFinish = getNodeLocation(finish, a);
+		int radius = 8;
+		graphics.DrawEllipse(&penRed, (int) lStart.lon - radius / 2, (int) lStart.lat - radius / 2, radius, radius);
+		graphics.DrawEllipse(&penRed, (int) lFinish.lon - radius / 2, (int) lFinish.lat - radius / 2, radius, radius);
+	}
+
+	// draw path
+	Location last, current;
+	last.lat = -1;
+	for (vector<int>::iterator i = moves.begin(); i != moves.end(); ++i) {
+		current = getNodeLocation(*i, a);
+		if (last.lat != -1) {
+			graphics.DrawLine(&penRed, last.lon, last.lat, current.lon, current.lat);
+		}
+		last = current;
+	}
 };

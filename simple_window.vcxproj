@@ -134,6 +134,7 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dijkstras.cpp" />
     <ClCompile Include="OsmParser.cpp" />
     <ClCompile Include="simple_window.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -148,6 +149,7 @@
     <None Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Dijkstras.h" />
     <ClInclude Include="OsmParser.h" />
     <ClInclude Include="xml.h" />
   </ItemGroup>

@@ -8,6 +8,7 @@
 #include <gdiplus.h>
 #pragma comment (lib, "Gdiplus.lib")
 #include "xml.h"
+#include "Dijkstras.h"
 
 using namespace std;
 using namespace Gdiplus;
