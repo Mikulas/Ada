@@ -134,7 +134,9 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ada.cpp" />
     <ClCompile Include="Dijkstras.cpp" />
+    <ClCompile Include="Location.cpp" />
     <ClCompile Include="OsmParser.cpp" />
     <ClCompile Include="simple_window.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -146,10 +148,13 @@
     <None Include="map.osm">
       <SubType>Designer</SubType>
     </None>
-    <None Include="readme.txt" />
+    <None Include="README.markdown" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ada.h" />
+    <ClInclude Include="Constants.h" />
     <ClInclude Include="Dijkstras.h" />
+    <ClInclude Include="Location.h" />
     <ClInclude Include="OsmParser.h" />
     <ClInclude Include="xml.h" />
   </ItemGroup>

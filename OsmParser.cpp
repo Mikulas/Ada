@@ -1,25 +1,17 @@
 #pragma once
 #include "OsmParser.h"
 
-typedef struct {
-	float lat, lon;
-} Location;
-
 Location getNodeLocation(XMLElement* e)
 {
 	Location loc;
-	loc.lon = e->FindVariableZ("lon", true)->GetValueFloat(); // x
-	loc.lat = e->FindVariableZ("lat", true)->GetValueFloat(); // y
-	loc.lon = ((loc.lon - 14.4) * 10000 - 180) * 10; // just so we can draw it on the screen
-	loc.lat = ((loc.lat - 50.07) * -10000 + 90) * 10; 
-
+	loc.longitude = e->FindVariableZ("lon", true)->GetValueFloat(); // x
+	loc.latitude = e->FindVariableZ("lat", true)->GetValueFloat(); // y
 	return loc;
 }
 
 Location getNodeLocation(const int id, XML* a)
 {
 	char tag[100] = {0};
-	Location loc;
 	
 	for (unsigned int i = 0; i < a->GetRootElement()->GetChildrenNum(); ++i) {
 		XMLElement* e = a->GetRootElement()->GetChildren()[i];
@@ -48,14 +40,13 @@ char* getNodeTagValue(XMLElement* e, const char* key)
 float getDistance(Location l1, Location l2)
 {
 	Location res;
-	res.lat = l1.lat - l2.lat;
-	res.lon = l1.lon - l2.lon;
-	return sqrt(res.lat * res.lat + res.lon * res.lon);
+	res.latitude = l1.latitude - l2.latitude;
+	res.longitude = l1.longitude - l2.longitude;
+	return sqrt(res.latitude * res.latitude + res.longitude * res.longitude);
 }
 
-void DrawMap(const char* file, HDC hdc)
+void DrawMap(const char* file, HDC hdc, Ada *ada)
 {
-	
 	XML* a = new XML(file);
 	a->CompressMemory();
 
@@ -64,7 +55,7 @@ void DrawMap(const char* file, HDC hdc)
 	Pen penBlack(Color(255, 0, 0, 0));
 	Pen penRed(Color(255, 255, 0, 0));
 	
-	REAL lon = 0, lat = 0;
+	REAL longitude = 0, latitude = 0;
 	int num = a->GetRootElement()->GetChildrenNum();
 	char tag[100] = {0};
 	char child[100] = {0};
@@ -74,7 +65,7 @@ void DrawMap(const char* file, HDC hdc)
 	Container map;
 
 	// draw nodes
-	int start = 523637130, finish = 418956013;
+	int start = 523637130, finish = 418956013; // TODO: these are not to be hardcoded
 	Node *nStart, *nFinish;
 
 	for (unsigned int i = 0; i < a->GetRootElement()->GetChildrenNum(); ++i) {
@@ -83,7 +74,7 @@ void DrawMap(const char* file, HDC hdc)
 		if (strcmp(tag, "node") != 0) continue;
 
 		Location loc = getNodeLocation(e);
-		//graphics.DrawEllipse(&penBlue, (int) loc.lon, (int) loc.lat, 3, 3);
+		//graphics.DrawEllipse(&penBlue, (int) loc.longitude, (int) loc.latitude, 3, 3);
 		int id = e->FindVariableZ("id", true)->GetValueInt();
 		map.newNode(id);
 	}
@@ -100,7 +91,7 @@ void DrawMap(const char* file, HDC hdc)
 
 		int last_id;
 		Location last, current;
-		last.lat = -1;
+		last.latitude = -1;
 
 		// skip buildings
 		for (unsigned int n = 0; n < e->GetChildrenNum(); ++n) {
@@ -124,8 +115,8 @@ void DrawMap(const char* file, HDC hdc)
 
 			id = node->FindVariableZ("ref", true)->GetValueInt();
 			current = getNodeLocation(id, a);
-			if (last.lat != -1) {
-				graphics.DrawLine(&penBlack, last.lon, last.lat, current.lon, current.lat);
+			if (last.latitude != -1) {
+				graphics.DrawLine(&penBlack, lon2screen(last.longitude), lat2screen(last.latitude), lon2screen(current.longitude), lat2screen(current.latitude));
 				map.newEdge(id, last_id, getDistance(last, current));
 			}
 			last = current;
@@ -137,11 +128,11 @@ void DrawMap(const char* file, HDC hdc)
 
 	// draw path
 	Location last, current;
-	last.lat = -1;
+	last.latitude = -1;
 	for (vector<int>::iterator i = moves.begin(); i != moves.end(); ++i) {
 		current = getNodeLocation(*i, a);
-		if (last.lat != -1) {
-			graphics.DrawLine(&penRed, last.lon, last.lat, current.lon, current.lat);
+		if (last.latitude != -1) {
+			graphics.DrawLine(&penRed, lon2screen(last.longitude), lat2screen(last.latitude), lon2screen(current.longitude), lat2screen(current.latitude));
 		}
 		last = current;
 	}
@@ -149,10 +140,11 @@ void DrawMap(const char* file, HDC hdc)
 	// draw start and finish nodes
 	{
 		Location lStart = getNodeLocation(start, a);
+		ada->location.latitude = lStart.latitude;
+		ada->location.longitude = lStart.longitude;
 		Location lFinish = getNodeLocation(finish, a);
-		
 		int radius = 8;
-		graphics.DrawEllipse(&penRed, (int) lStart.lon - radius / 2, (int) lStart.lat - radius / 2, radius, radius);
-		graphics.DrawEllipse(&penRed, (int) lFinish.lon - radius / 2, (int) lFinish.lat - radius / 2, radius, radius);
+		graphics.DrawEllipse(&penRed, lon2screen(lStart.longitude) - radius / 2, (int) lat2screen(lStart.latitude) - radius / 2, radius, radius);
+		graphics.DrawEllipse(&penRed, lon2screen(lFinish.longitude) - radius / 2, (int) lat2screen(lFinish.latitude) - radius / 2, radius, radius);
 	}
 };

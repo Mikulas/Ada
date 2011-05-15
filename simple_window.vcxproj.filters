@@ -27,12 +27,18 @@
     <ClCompile Include="Dijkstras.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ada.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="map.osm">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="readme.txt" />
+    <None Include="README.markdown" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OsmParser.h">
@@ -42,6 +48,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Dijkstras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

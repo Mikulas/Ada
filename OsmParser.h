@@ -10,9 +10,11 @@
 #pragma comment (lib, "Gdiplus.lib")
 #include "xml.h"
 #include "Dijkstras.h"
+#include "Location.h"
+#include "Ada.h"
 
 using namespace std;
 using namespace Gdiplus;
 
 
-void DrawMap(const char* file, HDC hdc);
+void DrawMap(const char* file, HDC hdc, Ada* ada);

@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <float.h>
 
 using namespace std;
 
@@ -8,26 +9,17 @@ class Node;
 class Edge;
 class Container;
 
-/*
-void Dijkstras();
-vector<Node*>* AdjacentRemainingNodes(Node* node);
-Node* ExtractSmallest(vector<Node*>& nodes);
-int Distance(Node* node1, Node* node2);
-bool Contains(vector<Node*>& nodes, Node* node);
-void PrintShortestRouteTo(Node* destination);
-*/
-
 class Node
 {
 public:
-	Node(unsigned int id) : id(id), previous(NULL), distanceFromStart(INT_MAX)
+	Node(unsigned int id) : id(id), previous(NULL), distanceFromStart(FLT_MAX)
 	{
 		
 	}
 
 	unsigned int id;
 	Node* previous;
-	int distanceFromStart;
+	float distanceFromStart;
 };
 
 
@@ -55,7 +47,7 @@ class Container
 protected:
 	Node* ExtractSmallest(vector<Node*>& nodes);
 	vector<Node*>* AdjacentRemainingNodes(Node* node);
-	int Distance(Node* node1, Node* node2);
+	float Distance(Node* node1, Node* node2);
 	bool Contains(vector<Node*>& nodes, Node* node);
 	void compute();
 
@@ -73,7 +65,7 @@ public:
 	void newNode(unsigned int id) {
 		this->nodes.push_back(new Node(id));
 	}
-	void newEdge(unsigned int id1, unsigned int id2, int distance) {
+	void newEdge(unsigned int id1, unsigned int id2, float distance) {
 		this->edges.push_back(new Edge(this->getNodeById(id1), this->getNodeById(id2), distance));
 	}
 	vector<int> findRoute(Node* start, Node* end);
