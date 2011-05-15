@@ -2,12 +2,12 @@
 
 int lon2screen(float longitude)
 {
-	return ((longitude - 14.4) * 10000 - 180) * 10;
+	return lon2meter(longitude * 100000 - 1441800) / 100000 * 1.8;
 }
 
 int lat2screen(float latitude)
 {
-	return ((latitude - 50.07) * -10000 + 90) * 10;
+	return lat2meter(latitude * -100000 + 5007900) / 100000 * 1.8;
 }
 
 float meter2lat(float meter)
@@ -18,4 +18,14 @@ float meter2lat(float meter)
 float meter2lon(float meter)
 {
 	return meter / LONGITUDE_DEGREE;
+}
+
+float lat2meter(float latitude)
+{
+	return LATITUDE_DEGREE * latitude;
+}
+
+float lon2meter(float longitude)
+{
+	return LONGITUDE_DEGREE * longitude;
 }

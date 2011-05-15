@@ -39,10 +39,9 @@ char* getNodeTagValue(XMLElement* e, const char* key)
 
 float getDistance(Location l1, Location l2)
 {
-	Location res;
-	res.latitude = l1.latitude - l2.latitude;
-	res.longitude = l1.longitude - l2.longitude;
-	return sqrt(res.latitude * res.latitude + res.longitude * res.longitude);
+	float dif_lat = lat2meter(l1.latitude - l2.latitude);
+	float dif_lon = lon2meter(l1.longitude - l2.longitude);
+	return sqrt(dif_lat * dif_lat + dif_lon * dif_lon);
 }
 
 void DrawMap(const char* file, HDC hdc, Ada *ada)
@@ -54,6 +53,7 @@ void DrawMap(const char* file, HDC hdc, Ada *ada)
 	Pen penBlue(Color(255, 0, 0, 255));
 	Pen penBlack(Color(255, 0, 0, 0));
 	Pen penRed(Color(255, 255, 0, 0));
+	SolidBrush brush(Color::MidnightBlue);
 	
 	REAL longitude = 0, latitude = 0;
 	int num = a->GetRootElement()->GetChildrenNum();
@@ -131,6 +131,7 @@ void DrawMap(const char* file, HDC hdc, Ada *ada)
 	last.latitude = -1;
 	for (vector<int>::iterator i = moves.begin(); i != moves.end(); ++i) {
 		current = getNodeLocation(*i, a);
+		ada->track.push(current);
 		if (last.latitude != -1) {
 			graphics.DrawLine(&penRed, lon2screen(last.longitude), lat2screen(last.latitude), lon2screen(current.longitude), lat2screen(current.latitude));
 		}
@@ -140,11 +141,12 @@ void DrawMap(const char* file, HDC hdc, Ada *ada)
 	// draw start and finish nodes
 	{
 		Location lStart = getNodeLocation(start, a);
-		ada->location.latitude = lStart.latitude;
-		ada->location.longitude = lStart.longitude;
 		Location lFinish = getNodeLocation(finish, a);
+		
 		int radius = 8;
-		graphics.DrawEllipse(&penRed, lon2screen(lStart.longitude) - radius / 2, (int) lat2screen(lStart.latitude) - radius / 2, radius, radius);
-		graphics.DrawEllipse(&penRed, lon2screen(lFinish.longitude) - radius / 2, (int) lat2screen(lFinish.latitude) - radius / 2, radius, radius);
+		graphics.DrawEllipse(&penRed, lon2screen(lStart.longitude) - radius / 2, lat2screen(lStart.latitude) - radius / 2, radius, radius);
+		graphics.DrawEllipse(&penRed, lon2screen(lFinish.longitude) - radius / 2, lat2screen(lFinish.latitude) - radius / 2, radius, radius);
+
+		ada->location = lStart; // TODO: remove later
 	}
 };

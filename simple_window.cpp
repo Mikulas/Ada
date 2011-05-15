@@ -23,32 +23,44 @@ VOID OnPaint(HDC hdc)
 	DrawMap("map.osm", hdc, &ada);
 }
 
-VOID DrawMovement(HDC hdc, RECT* rcClient)
+void DrawString(HDC hdc, stringstream* s, PointF p)
 {
 	Graphics graphics(hdc);
-	//Pen penBlack(Color(255, 0, 0, 0));
-	SolidBrush brush(Color::White);
-	SolidBrush brushBlack(Color::Black);
 	Font font(L"Lucida Console", 12);
+	SolidBrush brushBlack(Color::Black);
 
-	stringstream lat, lon, orientation;
+	WCHAR buffer[150];
+	MultiByteToWideChar(CP_ACP, 0, s->str().c_str(), -1, buffer, 150);
+	graphics.DrawString(buffer, s->str().length(), &font, p, NULL, &brushBlack);
+}
+
+VOID DrawMovement(HDC hdc, RECT* rcClient)
+{
+	if (ada.track.empty())
+		return;
+
+	Graphics graphics(hdc);
+	Pen pen(Color(255, 20, 180, 20));
+	SolidBrush brushWhite(Color::White);
+	SolidBrush brush(Color::MidnightBlue);
+
+	stringstream lat, lon, orientation, distance;
 	lat << "Lat = " << ada.location.latitude << "°";
 	lon << "Lon = " << ada.location.longitude << "°";
 	orientation << "Ori ~ " << (ada.orientation * 180 / 3.1415) << "°";
-	WCHAR buffer[150];
+	distance << "Dis = " << ada.getDistanceToNext() << "m";
+	
+	graphics.FillRectangle(&brushWhite, Rect(0, 0, 300, 50));
 
-	graphics.FillRectangle(&brush, Rect(0, 0, 300, 50));
+	DrawString(hdc, &lat, PointF(2, 2));
+	DrawString(hdc, &lon, PointF(2, 20));
+	DrawString(hdc, &orientation, PointF(150, 2));
+	DrawString(hdc, &distance, PointF(150, 20));
+	
+	int radius = 8;
+	graphics.FillEllipse(&brush, lon2screen(ada.track.top().longitude) - radius / 2, lat2screen(ada.track.top().latitude) - radius / 2, radius, radius);
 
-	MultiByteToWideChar(CP_ACP, 0, lat.str().c_str(), -1, buffer, 150);
-	graphics.DrawString(buffer, lat.str().length(), &font, PointF(2, 2), NULL, &brushBlack);
-
-	MultiByteToWideChar(CP_ACP, 0, lon.str().c_str(), -1, buffer, 150);
-	graphics.DrawString(buffer, lon.str().length(), &font, PointF(2, 20), NULL, &brushBlack);
-
-	MultiByteToWideChar(CP_ACP, 0, orientation.str().c_str(), -1, buffer, 150);
-	graphics.DrawString(buffer, orientation.str().length(), &font, PointF(150, 2), NULL, &brushBlack);
-
-	graphics.FillEllipse(&brushBlack, lat2screen(ada.location.latitude) - 1, lon2screen(ada.location.longitude) - 1, 2, 2);
+	graphics.DrawLine(&pen, lon2screen(ada.location.longitude), lat2screen(ada.location.latitude), lon2screen(ada.location.longitude), lat2screen(ada.location.latitude) + 1);
 }
 
 // Step 4: the Window Procedure
@@ -74,7 +86,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 		case WM_TIMER:
 			hdc = GetDC(hwnd);
 			GetClientRect(hwnd, &rcClient);
-			ada.step(50);
+			ada.step(1.0);
 			DrawMovement(hdc, &rcClient);
 			ReleaseDC(hwnd, hdc);
 		break;
@@ -90,8 +102,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 	return 0;
 }
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
-	LPSTR lpCmdLine, int nCmdShow)
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
 	WNDCLASSEX wc;
 	HWND hwnd;
@@ -117,8 +128,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
 	if(!RegisterClassEx(&wc))
 	{
-		MessageBox(NULL, "Window Registration Failed!", "Error!",
-			MB_ICONEXCLAMATION | MB_OK);
+		MessageBox(NULL, "Window Registration Failed!", "Error!", MB_ICONEXCLAMATION | MB_OK);
 		return 0;
 	}
 
@@ -131,14 +141,12 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 		CW_USEDEFAULT, CW_USEDEFAULT, 640, 480,
 		NULL, NULL, hInstance, NULL);
 
-	if(hwnd == NULL)
-	{
-		MessageBox(NULL, "Window Creation Failed!", "Error!",
-			MB_ICONEXCLAMATION | MB_OK);
+	if (hwnd == NULL) {
+		MessageBox(NULL, "Window Creation Failed!", "Error!", MB_ICONEXCLAMATION | MB_OK);
 		return 0;
 	}
 
-	ShowWindow(hwnd, nCmdShow);
+	ShowWindow(hwnd, nCmdShow | SW_MAXIMIZE);
 	UpdateWindow(hwnd);
 
 	// Step 3: The Message Loop

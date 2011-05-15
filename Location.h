@@ -11,3 +11,5 @@ int lat2screen(float);
 
 float meter2lat(float);
 float meter2lon(float);
+float lat2meter(float);
+float lon2meter(float);
