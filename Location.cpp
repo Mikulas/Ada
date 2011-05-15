@@ -1,4 +1,4 @@
-#include "Location.h"
+﻿#include "Location.h"
 
 int lon2screen(float longitude)
 {

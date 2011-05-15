@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "OsmParser.h"
 
 Location getNodeLocation(XMLElement* e)

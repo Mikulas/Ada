@@ -1,4 +1,4 @@
-#define XML_USE_STL
+ï»¿#define XML_USE_STL
 
 #include <windows.h>
 #include <objidl.h>
@@ -32,9 +32,9 @@ VOID DrawMovement(HDC hdc, RECT* rcClient)
 	Font font(L"Lucida Console", 12);
 
 	stringstream lat, lon, orientation;
-	lat << "Lat = " << ada.location.latitude << "°";
-	lon << "Lon = " << ada.location.longitude << "°";
-	orientation << "Ori ~ " << (ada.orientation * 180 / 3.1415) << "°";
+	lat << "Lat = " << ada.location.latitude << "Â°";
+	lon << "Lon = " << ada.location.longitude << "Â°";
+	orientation << "Ori ~ " << (ada.orientation * 180 / 3.1415) << "Â°";
 	WCHAR buffer[150];
 
 	graphics.FillRectangle(&brush, Rect(0, 0, 300, 50));
