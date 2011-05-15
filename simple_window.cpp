@@ -50,7 +50,7 @@ VOID DrawMovement(HDC hdc, RECT* rcClient)
 	orientation << "Ori ~ " << (ada.orientation * 180 / 3.1415) << "°";
 	distance << "Dis = " << ada.getDistanceToNext() << "m";
 	
-	graphics.FillRectangle(&brushWhite, Rect(0, 0, 300, 50));
+	graphics.FillRectangle(&brushWhite, Rect(0, 0, 400, 50));
 
 	DrawString(hdc, &lat, PointF(2, 2));
 	DrawString(hdc, &lon, PointF(2, 20));
