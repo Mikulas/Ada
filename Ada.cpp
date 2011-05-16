@@ -1,7 +1,7 @@
 ﻿#include "Ada.h"
 
 const float Ada::wheel_distance = 0.450;
-const float Ada::node_achieved_distance = 1.5;
+const float Ada::node_achieved_distance = 0.5;
 
 Ada::Ada(void)
 {
@@ -35,8 +35,18 @@ void Ada::rotate()
 	 * but for now this will do:
 	 */
 	// orientation += atan((larger - smaller) / wheel_distance);
+	float new_orientation = atan(dif_lon / dif_lat);
+	if (dif_lat < 0) new_orientation += M_PI;
 
-	orientation = M_PI + atan(dif_lon / dif_lat);
+	// TOOD: make it constant somewhere
+	float rounding = M_PI / 180; // a degree
+	do {
+		float motor_step = M_PI / 90; // this is to be computed
+		if (orientation < new_orientation)
+			orientation += motor_step;
+		else
+			orientation -= motor_step;
+	} while (orientation < new_orientation - rounding || orientation > new_orientation + rounding);
 }
 
 

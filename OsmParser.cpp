@@ -65,7 +65,14 @@ void DrawMap(const char* file, HDC hdc, Ada *ada)
 	Container map;
 
 	// draw nodes
-	int start = 523637130, finish = 418956013; // TODO: these are not to be hardcoded
+	// TODO: these are not to be hardcoded
+	
+	int start = 523637130, finish = 418956013;
+	//int start = 418956013, finish = 523637130;
+
+	//int start = 703733509, finish = 703733477;
+	//int start = 703733521, finish = 703733477;
+
 	Node *nStart, *nFinish;
 
 	for (unsigned int i = 0; i < a->GetRootElement()->GetChildrenNum(); ++i) {
